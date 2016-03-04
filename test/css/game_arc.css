@@ -1,0 +1,191 @@
+/*游戏css*/
+.mainerbox{ width:1190px; margin:0 auto; font-family:"Microsoft Yahei";}
+.mainer{ border:1px solid #D5D5D5; margin-top:20px; width:1188px;}
+.breadnav{ height:44px; line-height:44px; border-bottom:1px solid #D5D5D5; font-size:14px; color:#666; padding:0px 20px; background-color:#F9F9F9;}
+.breadnav a{ color:#666;}
+.breadnav a:hover{ color:#f6505c;}
+.mainercontent{ background-color:#fff;}
+
+
+/*单机游戏内容 css*/
+/*左区块*/
+.mainerleft{ width:808px; float:left; background-color:#fff; padding:20px;}
+
+.gamedetails{ padding:20px; border-bottom:1px dashed #CECECE;}
+
+.gamedetails_l{ float:left; width:120px; margin-right:20px;}
+.gamedetails_l .gamepic{ width:120px; height:120px; overflow:hidden; margin-bottom:20px;}
+.gamedetails_l .gamepic img{ width:120px; height:120px;}
+.gamedetails_l .gamepic img.pic{ border-radius:16px;}
+.gamedetails_l .toupiao{ color:#666;}
+.gamedetails_l .toupiaoposition{ position:relative;}
+.gamedetails_l .toupiao .good{ border:1px solid #D5D5D5; background:url(../images/toupiao.gif) no-repeat; background-color:#fff; height:43px; line-height:43px; width:83px; padding-left:35px; cursor:pointer; border-radius:4px 4px 0px 0px;}
+.gamedetails_l .toupiao .ongood{ color:#fff; background-position:0px -250px; border:1px solid #7AC72C;}
+.gamedetails_l .toupiao .hidetoupiao{ position:absolute; top:0px; left:0px; display:none; padding-top:1px; z-index:3;}
+.gamedetails_l .toupiaohover .hidetoupiao{ display:block;}
+.gamedetails_l .toupiao .hidetoupiao ul li{border:1px solid #D5D5D5; background:url(../images/toupiao.gif) no-repeat; background-color:#fff; height:43px; line-height:43px; width:83px; padding-left:35px; margin-top:-1px; cursor:pointer;}
+.gamedetails_l .toupiao .hidetoupiao ul li.g{ background-position:0px 0px; border-radius:4px 4px 0px 0px;}
+.gamedetails_l .toupiao .hidetoupiao ul li.n{ background-position:0px -50px;}
+.gamedetails_l .toupiao .hidetoupiao ul li.b{ background-position:0px -100px; border-radius:0px 0px 4px 4px;}
+.gamedetails_l .toupiao .hidetoupiao ul li.ong{ color:#fff; background-position:0px -250px; border:1px solid #7AC72C;}
+.gamedetails_l .toupiao .hidetoupiao ul li.onn{ color:#fff; background-position:0px -300px; border:1px solid #FF8C3F;}
+.gamedetails_l .toupiao .hidetoupiao ul li.onb{ color:#fff; background-position:0px -350px; border:1px solid #666666;}
+.gamedetails_l .addmygame{ border:1px solid #D5D5D5; background:url(../images/toupiao.gif) no-repeat 0px -155px; background-color:#fff; height:43px; line-height:43px; width:83px; padding-left:35px; cursor:pointer; color:#666; position:relative; top:-1px; z-index:2; border-radius:0px 0px 4px 4px;}
+.gamedetails_l .onaddmygame,.gamedetails_l .hoveraddmygame{ background-position:0px -405px; color:#fff; border:1px solid #FFA100;}
+
+.gamedetails_c{ float:left; width:545px;}
+.gamedetails_c h1{ font-size:25px; color:#ff5555; font-weight:normal; margin-bottom:12px;}
+.gamedetails_c h1 span{ padding-left:10px;}
+.gamedetails_c h1 span a{ display:inline-block; width:48px; text-align:center; height:21px; line-height:21px; border:1px solid #D5D5D5; font-size:14px; color:#666; background-color:#F9F9F9; margin-left:10px; border-radius:4px;}
+.gamedetails_c h1 span a:hover{ background-color:#99CC00; border:1px solid #99CC00; color:#fff;}
+.gamedetails_c .advantages{ margin-bottom:5px;}
+.gamedetails_c .advantages ul li{ float:left; margin-right:15px; position:relative;}
+.gamedetails_c .advantages ul li a{ display:inline-block; /*float:left;*/ height:21px; line-height:21px; padding:0px 10px; color:#66CC33; border:1px solid #66CC33; border-radius:4px;}
+.gamedetails_c .advantages ul li div.tip{ width:545px; position:absolute; left:0px; top:31px; display:none;}
+.gamedetails_c .advantages ul li span{ padding:3px; background-color:#D9D9D9; display:inline-block;}
+.gamedetails_c .advantages ul li span em{ display:inline-block; width:16px; height:14px; background:url(../images/em-top3.gif) no-repeat; position:absolute; left:20px; top:-8px;}
+.gamedetails_c .advantages ul li span strong{ display:inline-block; padding:10px; border:1px solid #B5B5B5; background-color:#fff; font-weight:normal;}
+.gamedetails_c div.shorttip{ height:21px; line-height:21px; color:#666; font-family:simsun; font-size:12px;}
+.gamedetails_c div.shorttip p{ float:left; width:150px; height:21px; margin-right:10px; overflow:hidden;}
+.gamedetails_c div.shorttip p.tz{ width:300px;}
+.gamedetails_c div.shorttip span{ padding-left:5px; padding-right:5px; /*display:inline-block;*/}
+
+.gamedetails_c div.shorttip span b{ font-weight:normal; color:#ff5555; font-family:"Microsoft Yahei"; font-size:14px;}
+.gamedetails_c .fx{ height:24px; padding:5px 0px 6px; color:#666; font-size:13px; margin-top:5px;}
+/*改写分享图标*/
+.jiathis_style_24x24  .jtico{background:url(../images/share.gif) no-repeat left !important;filter:alpha(opacity=80); opacity:0.80;}
+.jiathis_style_24x24 .jtico:hover{filter:alpha(opacity=100)!important; opacity:1!important;}
+.jiathis_style_24x24  .jtico_qzone{background-position:0 -65px!important;}
+.jiathis_style_24x24 .jtico_tsina{background-position:0 0!important;}
+.jiathis_style_24x24 .jtico_weixin{background-position:0 -32px!important;}
+.jiathis_style_24x24 .jtico_tqq{background-position:0 -163px!important;}
+.jiathis_style_24x24 .jtico_cqq{background-position:0 -98px!important;}
+
+.gamedetails_c p.shorttext{ height:24px; line-height:24px; overflow:hidden; color:#666; font-size:14px;}
+.gamedetails_c p.shorttext span{ margin-right:70px; padding-left:5px; padding-right:5px;}
+.gamedetails_c p.shorttext span b{ font-weight:normal; color:#ff5555;}
+.gamedetails_c .download{ margin-top:20px; /*height:120px; overflow:hidden;*/}
+.gamedetails_c .mt15{ margin-top:15px !important;}
+.gamedetails_c .download ul li{ float:left; margin-right:20px;}
+.gamedetails_c .download ul li a.downlink{ display:block; padding-left:60px; height:45px; line-height:45px; color:#fff; padding-right:15px; background:url(../images/pt-icon.png) no-repeat; font-size:16px;}
+.gamedetails_c .download ul li a.downlink:hover{filter:alpha(opacity=85); opacity:0.85;}
+.gamedetails_c .download ul li.android a.downlink{ background-position:0px 0px; background-color:#99D846; width:75px;}
+.gamedetails_c .download ul li.yueapple a.downlink{ background-position:0px -45px; background-color:#79C6F8;}
+.gamedetails_c .download ul li.apple a.downlink{ background-position:0px -90px; background-color:#FFBA00;}
+.gamedetails_c .download ul li .textline{ background-color:#F9F9F9; padding:4px;}
+/*.gamedetails_c .download ul li.android .textline{ width:142px;}
+.gamedetails_c .download ul li.yueapple .textline{ width:149px;}
+.gamedetails_c .download ul li.apple .textline{ width:170px;}*/
+.gamedetails_c .download ul li.android{ width:150px;}
+.gamedetails_c .download ul li.yueapple{ width:157px;}
+.gamedetails_c .download ul li.apple{ width:178px;}
+
+.gamedetails_c .download ul li .textline p{ line-height:20px; height:20px; color:#666; margin-bottom:2px;}
+.gamedetails_c .download ul li .textline .historyline{ line-height:20px; height:20px; color:#666; margin-bottom:2px; position:relative;}
+.gamedetails_c .download ul li .textline .historyline p.nowbanben{ /*float:left;*/ position:absolute; left:0px;}
+.gamedetails_c .download ul li .textline .historyline p.hisbanben{ /*float:right;*/ width:100%; height:20px; overflow:hidden;}
+.gamedetails_c .download ul li .textline .historyline p.hisbanben span{ display:none; position:absolute; z-index:1; top:19px; right:0px; background-color:#fff; border:1px solid #dcdcdc;}
+.gamedetails_c .download ul li .textline .historyline p.hisbanben span a{ display:block; text-align:right; border:1px solid #fff; padding:0 5px; /*width:128px;*/}
+.gamedetails_c .download ul li .textline .historyline p.hisbanben a.hisbtn{ display:inline-block; width:55px; height:18px; line-height:18px; text-align:center; color:#333; background-color:#fff; border:1px solid #DCDCDC; border-radius:2px; position:absolute; right:0px; top:0px; z-index:2;}
+.gamedetails_c .download ul li .textline .historylinehover p.hisbanben a.hisbtn{ border-bottom:1px solid #fff !important;}
+.gamedetails_c .download ul li .textline .historylinehover p.hisbanben span{ display:block;}
+/*.gamedetails_c .download ul li .textline p a{ float:right; display:inline-block; width:55px; height:18px; line-height:18px; text-align:center; color:#333; background-color:#fff; border:1px solid #DCDCDC; border-radius:2px;}*/
+.gamedetails_c .download ul li .textline p a:hover{ color:#fff; background-color:#7AC72C; border:1px solid #7AC72C;}
+
+.gamedetails_r{ float:right;}
+.gamedetails_r .fen{ text-align:right;}
+.gamedetails_r span{ color:#666; font-size:16px;}
+.gamedetails_r span b{ font-weight:normal; color:#FF743F; font-size:24px;}
+
+
+
+.jianjie h3{ font-size:16px; color:#333; font-weight:normal; padding:15px 0px;}
+.smalltext{ overflow:hidden; height:auto;}
+.smalltext p{ text-indent:2em; font-size:14px; line-height:32px; color:#666;}
+.zhankaibtn{ text-align:right; line-height:32px; display:none;}
+
+.gamenewstext{ margin-top:30px;}
+.gamenewstext h3{ height:34px;  background:url(../images/bgy.gif) repeat-x left bottom; font-family:simsun; font-weight:normal; margin-bottom:20px;}
+.gamenewstext h3 a.more{ float:right; font-size:12px; margin-top:8px;}
+.gamenewstext h3 span a{ display:inline-block; color:#333; width:94px; text-align:center; height:31px; line-height:31px; border-top:2px solid #fff; font-size:14px; border-bottom:1px solid #E4E4E4;}
+.gamenewstext h3 span a.on{border-bottom:1px solid #fff; border-left:1px solid #E4E4E4; border-right:1px solid #E4E4E4; border-top:2px solid #ff5555; font-weight:bold;}
+.gamenewstext h3 span a:hover{ color:#f6505c;}
+
+.gamenewstext .gamepics{ width:808px; overflow:hidden;}
+.gamenewstext .gamepics ul.heng{ width:828px; *padding-bottom:20px; _padding-bottom:20px;}
+.gamenewstext .gamepics ul.heng li{ float:left; margin-right:20px; margin-bottom:20px; width:256px; text-align:center;}
+.gamenewstext .gamepics ul.heng li img{ width:256px; /*height:130px;*/}
+
+.gamenewstext .gamepics ul.shu{ width:828px; *padding-bottom:20px; _padding-bottom:20px;}
+.gamenewstext .gamepics ul.shu li{ float:left; margin-right:20px; margin-bottom:20px; width:145px; text-align:center;}
+.gamenewstext .gamepics ul.shu li img{ width:145px; /*height:130px;*/}
+
+.gamenewstext .gamevideo{ width:808px; overflow:hidden;}
+.gamenewstext .gamevideo ul.heng{ width:828px; *padding-bottom:20px; _padding-bottom:20px;}
+.gamenewstext .gamevideo ul.heng li{ float:left; margin-right:20px; margin-bottom:20px; position:relative;}
+.gamenewstext .gamevideo ul.heng li img{ width:256px; height:130px;}
+.gamenewstext .gamevideo ul.heng li .stext{position:absolute; bottom:0px; left:0px; height:25px; line-height:25px; width:256px; text-indent:32px; color:#fff; font-size:12px; overflow:hidden; background-color:#555; background:rgba(0, 0, 0, .5);}
+.gamenewstext .gamevideo ul.heng li .stext i.icon-splay{ position:absolute; left:0px; top:5px; margin:0 12px 0px 10px; background:url(../images/bg_icon.png) no-repeat 0 -383px; display:inline-block; width:15px; height:15px; overflow:hidden;}
+
+.gamenewstext .gamevideo ul.shu{ width:828px; *padding-bottom:20px; _padding-bottom:20px;}
+.gamenewstext .gamevideo ul.shu li{ float:left; margin-right:20px; margin-bottom:20px; position:relative; width:145px;}
+.gamenewstext .gamevideo ul.shu li img{ width:145px; /*height:130px;*/}
+.gamenewstext .gamevideo ul.shu li .stext{position:absolute; bottom:0px; left:0px; /*height:25px;*/ line-height:25px; padding:0px 5px; width:135px; text-indent:26px; color:#fff; font-size:12px; overflow:hidden; background-color:#555; background:rgba(0, 0, 0, .5);}
+.gamenewstext .gamevideo ul.shu li .stext i.icon-splay{ position:absolute; left:0px; top:5px; margin:0 12px 0px 10px; background:url(../images/bg_icon.png) no-repeat 0 -383px; display:inline-block; width:15px; height:15px; overflow:hidden;}
+
+.guesslike h3{ height:24px; line-height:24px; color:#333; font-size:14px; font-weight:normal; margin:10px 0px;/* margin-top:20px; margin-bottom:20px;*/}
+.guesslike h3 em{ display:inline-block; float:left; width:5px; height:24px; background-color:#ff5555; margin-right:5px;}
+
+.youlike{ width:808px; overflow:hidden;}
+.youlike ul{ width:848px; padding-top:10px;}
+.youlike ul li{ float:left; padding:9px; margin-right:20px; margin-bottom:5px; font-family:"Microsoft Yahei"; font-size:14px;}
+.youlike ul li img{ width:100px; height:100px;}
+.youlike ul li p.tit{ margin:9px 0px 7px; text-align:center; width:90px; height:20px; line-height:20px; overflow:hidden;}
+.youlike ul li p.tit a{ color:#333;}
+.youlike ul li.on p.tit a{ color:#f60;}
+.youlike ul li p.down{ text-align:center;}
+.youlike ul li p.down a{ display:inline-block; width:66px; height:23px; line-height:23px; background-color:#fff; border:1px solid #ccc; border-radius:3px;}
+.youlike ul li.on p.down a{ background-color:#FF5555; color:#fff; border:1px solid #FF5555;}
+.youlike ul li a.gameewm{ display:none;}
+.youlike ul li.on{ background-color:#F7F7F7;}
+.youlike ul li.on a.gamepic{ display:none;}
+.youlike ul li.on a.gameewm{ display:block;}
+
+
+/*右区块*/
+.mainerright{ float:right; width:300px; padding:0px 20px; background-color:#fafafa;}
+
+.downtop{ margin-top:10px;}
+.downtop h3{ font-family:"Microsoft Yahei"; font-weight:normal; font-size:18px; color:#333; border-bottom:2px solid #EBEBEB; height:35px; line-height:35px; position:relative;}
+.downtop h3 span{ border-bottom:2px solid #ff5555; display:block; height:35px; float:left; padding:0px 4px; position:absolute;}
+.downtop ul.topul{ padding:10px 0px;}
+.downtop ul.topul li{ padding:7px 5px; border-bottom:1px solid #F2F2F2; height:28px; overflow:hidden;}
+.downtop ul.topul li.on{ padding:10px 5px; height:70px;}
+.downtop ul.topul li em{ display:block; float:left; width:25px; height:25px; line-height:25px; text-align:center; background:url(../images/icon_pt.gif) no-repeat 0px -150px; margin-right:15px; color:#c4c4c4;}
+.downtop ul.topul li.on em{ margin-top:25px;}
+.downtop ul.topul li.one em{ background-position:-1px -75px; color:#fff;}
+.downtop ul.topul li.two em{ background-position:-1px -100px; color:#fff;}
+.downtop ul.topul li.three em{ background-position:-1px -125px; color:#fff;}
+.downtop ul.topul li img{ float:left; width:24px; height:24px; margin-right:10px; margin-top:2px; border-radius:4px;}
+.downtop ul.topul li.on img{ width:70px; height:70px; border-radius:12px; margin-top:0px;}
+.downtop ul.topul li .info{ float:left; font-family:simsun; color:#808080; width:170px;}
+.downtop ul.topul li .info h4{ font-weight:normal; font-size:14px; font-weight:normal; height:24px; line-height:24px; margin-bottom:4px; overflow:hidden;}
+.downtop ul.topul li .info h4 a{ color:#404040;}
+.downtop ul.topul li.on .info h4 a{ color:#E85D41;}
+.downtop ul.topul li .info h4 a:hover{color:#E85D41; text-decoration:underline;}
+.downtop ul.topul li .info p{ display:none;}
+.downtop ul.topul li.on .info p{ display:block;}
+.downtop ul.topul li .info p.pt{ height:25px; line-height:28px;}
+.downtop ul.topul li .info p.pt span{ float:left;}
+.downtop ul.topul li .info p.pt i{ display:inline-block; width:25px; height:25px; overflow:hidden; background:url(../images/icon_pt.gif) no-repeat;}
+.downtop ul.topul li .info p.pt i.icon-android{ background-position: 0px -0px;}
+.downtop ul.topul li .info p.pt i.icon-apple{ background-position: 0px -25px;}
+.downtop ul.topul li .info p.pt i.icon-mini{ background-position: 0px -50px;}
+
+.gameguide{ margin-top:10px;}
+.gameguide h3{ font-family:"Microsoft Yahei"; font-weight:normal; font-size:18px; color:#333; border-bottom:2px solid #EBEBEB; height:35px; line-height:35px; position:relative;}
+.gameguide h3 span{ border-bottom:2px solid #ff5555; display:block; height:35px; float:left; padding:0px 4px; position:absolute;}
+.gameguide ul{ padding:5px 0px;}
+.gameguide ul li{ height:40px; line-height:40px; background:url(../images/dian.gif) no-repeat left center; padding-left:10px; overflow:hidden;}
+.gameguide ul li a{ font-size:14px; color:#333;}
+.gameguide ul li a:hover{ color:#f6505c;}

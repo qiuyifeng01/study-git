@@ -1,0 +1,78 @@
+/*游戏库css*/
+.mainerbox{ width:1190px; margin:0 auto; font-family:"Microsoft Yahei";}
+.mainer{ border:1px solid #D5D5D5; margin-top:20px; width:1188px;}
+.breadnav{ height:44px; line-height:44px; border-bottom:1px solid #D5D5D5; font-size:14px; color:#666; padding:0px 20px; background-color:#F9F9F9;}
+.breadnav a{ color:#666;}
+.breadnav a:hover{ color:#f6505c;}
+.mainercontent{ background-color:#fff;}
+
+
+/*游戏库 css*/
+.libaosearchbox{ padding:20px;}
+.htit{ color:#4B4A48; border-bottom:2px solid #EBEBEB; height:50px;}
+.htit h3{ font-size:30px; font-weight:normal; border-bottom:2px solid #ff5555; float:left; height:50px; line-height:50px; padding:0px 5px; _position:relative; _top:2px;}
+.htit span{ font-size:14px; float:left; margin-top:20px; margin-left:20px;}
+.htit span b{ color:#ff5555; font-weight:normal;}
+
+.optionsbox{ margin-top:10px;}
+.options{ height:26px; padding:10px 0px; border-bottom:1px dashed #CECECE;}
+.options span{ padding-right:20px;}
+.options a{ display:inline-block; width:82px; text-align:center; height:24px; line-height:24px; border:1px solid #fff; background-color:#fff; color:#666; margin-right:10px;}
+.options a:hover{ border:1px solid #ddd; background-color:#f1f1f1; color:#666;}
+.options a.all{ color:#fff; background-color:#404952; border:1px solid #404952;}
+.options a.on{ color:#fff; background-color:#FF8A8A; border:1px solid #FF8A8A;}
+.options a.all:hover{ color:#fff; background-color:#404952; border:1px solid #404952;}
+.options a.on:hover{ color:#fff; background-color:#FF8A8A; border:1px solid #FF8A8A;}
+
+.libaotopline{ margin:20px; background-color:#FAFAFA; border:1px solid #E2E2E2; position:relative; height:39px; margin-bottom:0px;}
+.libaotopline .orderbtn{ position:absolute; left:0px; top:-1px;}
+.libaotopline .orderbtn a{ display:inline-block; width:110px; height:41px; line-height:41px; font-size:16px; text-align:center;}
+.libaotopline .orderbtn a.on{ background-color:#ff5555; color:#fff;}
+
+.gamelistbox{ padding:0px 20px;}
+.gamelistbox ul li{ padding:19px 0px; border-bottom:1px dashed #CECECE;}
+.gamelistbox ul li a.gamepic{ display:block; width:120px; height:120px; overflow:hidden; float:left; margin-right:19px;}
+.gamelistbox ul li a.gamepic img{ width:120px; height:120px;}
+.gamelistbox ul li a.gamepic img.gameimg{ border-radius:16px;}
+.gamelistbox ul li a.gamepic img.ewmimg{ display:none;}
+.gamelistbox ul li.ewmhover a.gamepic img.ewmimg{ display:block;}
+.gamelistbox ul li .gameinfo{ float:left; width:1008px; font-size:14px; color:#666;}
+.gamelistbox ul li .gameinfo h3{ font-size:20px; font-weight:normal; margin-bottom:2px; height:30px; line-height:30px; overflow:hidden;}
+.gamelistbox ul li .gameinfo h3 a{ color:#000;}
+.gamelistbox ul li .gameinfo h3 a:hover{ color:#ff5555;}
+.gamelistbox ul li .gameinfo h3 span{ font-size:14px; padding-left:10px;}
+.gamelistbox ul li .gameinfo p{ height:24px; overflow:hidden; margin-bottom:2px;}
+.gamelistbox ul li .gameinfo p.tip{ line-height:18px;}
+.gamelistbox ul li .gameinfo p.tip span{ padding-right:15px; padding-left:5px; color:#333;}
+.gamelistbox ul li .gameinfo p.tip span i{ display:inline-block; width:20px; height:20px; overflow:hidden; background:url(../images/small-icon.gif) no-repeat; margin-left:5px; position:relative; top:2px;}
+.gamelistbox ul li .gameinfo p.tip span i.icon-android{ background-position:0px 0px;}
+.gamelistbox ul li .gameinfo p.tip span i.icon-apple{ background-position:0px -20px;}
+.gamelistbox ul li .gameinfo p.text{ line-height:24px;}
+.gamelistbox ul li .gameinfo p.text span{ padding-left:5px;}
+.gamelistbox ul li .gameinfo .btnline{ height:32px; padding-top:4px;}
+.gamelistbox ul li .gameinfo .btnline a{ display:block; padding-left:30px; padding-right:20px; /*width:80px;*/ height:30px; line-height:30px; /*text-align:center;*/ background-color:#FAFAFA; border:1px solid #eee; color:#666; font-size:12px; float:left; margin-right:14px; position:relative;}
+.gamelistbox ul li .gameinfo .btnline a i{ display:block; float:left; width:20px; height:20px; overflow:hidden; background:url(../images/small-icon.gif) no-repeat; position:absolute; left:5px; top:5px; margin-right:2px;}
+.gamelistbox ul li .gameinfo .btnline a i.icon-down{ background-position:0px -40px;}
+.gamelistbox ul li .gameinfo .btnline a i.icon-libao{ background-position:0px -60px;}
+.gamelistbox ul li .gameinfo .btnline a i.icon-zq{ background-position:0px -80px;}
+.gamelistbox ul li .gameinfo .btnline a i.icon-bbs{ background-position:0px -100px;}
+.gamelistbox ul li .gameinfo .btnline a i.icon-pic{ background-position:0px -120px;}
+.gamelistbox ul li .gameinfo .btnline a i.icon-jietu{ background-position:0px -139px;}
+.gamelistbox ul li .gameinfo .btnline a i.icon-video{ background-position:0px -160px;}
+.gamelistbox ul li .gameinfo .btnline a b{ font-weight:normal; color:#ff5555;}
+.gamelistbox ul li .gameinfo .btnline a:hover{ background-color:#FF8A8A; border:1px solid #FF8A8A; color:#fff;}
+.gamelistbox ul li .gameinfo .btnline a:hover i.icon-down{ background-position:-20px -40px;}
+.gamelistbox ul li .gameinfo .btnline a:hover i.icon-libao{ background-position:-20px -60px;}
+.gamelistbox ul li .gameinfo .btnline a:hover i.icon-zq{ background-position:-20px -80px;}
+.gamelistbox ul li .gameinfo .btnline a:hover i.icon-bbs{ background-position:-20px -100px;}
+.gamelistbox ul li .gameinfo .btnline a:hover i.icon-pic{ background-position:-20px -120px;}
+.gamelistbox ul li .gameinfo .btnline a:hover i.icon-jietu{ background-position:-20px -139px;}
+.gamelistbox ul li .gameinfo .btnline a:hover i.icon-video{ background-position:-20px -160px;}
+.gamelistbox ul li .gameinfo .btnline a:hover b{ font-weight:normal; color:#fff;}
+
+
+.page{ padding:50px 0px; text-align:right;}
+.page a{ display:inline-block; height:38px; line-height:38px; padding:0px 14px; color:#666; background-color:#F2F2F2; font-size:14px; border-radius:5px;}
+.page a:hover{ color:#119CD5;}
+.page a.on{ background-color:#119CD5; color:#fff;}
+.page a.on:hover{ color:#fff;}

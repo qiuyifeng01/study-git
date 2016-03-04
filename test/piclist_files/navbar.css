@@ -1,0 +1,96 @@
+#dw-navbar A {
+	TEXT-INDENT: 0px; WIDTH: auto; DISPLAY: inline; HEIGHT: auto; COLOR: #ccc; OVERFLOW: visible
+}
+#dw-navbar {
+	POSITION: absolute; LINE-HEIGHT: 36px; WIDTH: 140px; WORD-WRAP: break-word; HEIGHT: 41px; COLOR: #ccc; OVERFLOW: visible; TOP: 23px; CURSOR: default; LEFT: 140px; _height: 36px
+}
+#header #dw-navbar {
+	WIDTH: 820px
+}
+#dw-navbar .g-info {
+	PADDING-LEFT: 30px; FLOAT: left
+}
+#dw-navbar .nav-link {
+	FLOAT: left
+}
+#dw-navbar .s-nav {
+	BACKGROUND: url(http://www.duowan.com/assets/img/bgs_site_nav.png) no-repeat -103px -78px
+}
+#dw-navbar .p-info .nav-link {
+	BACKGROUND: url(http://www.duowan.com/assets/img/bgs_site_nav.png) no-repeat -103px -78px
+}
+#dw-navbar .s-nav {
+	Z-INDEX: 1; POSITION: relative; PADDING-BOTTOM: 0px; MARGIN: 0px 3px 0px 9px; PADDING-LEFT: 10px; PADDING-RIGHT: 15px; FLOAT: left; PADDING-TOP: 0px
+}
+#dw-navbar .s-nav EM {
+	COLOR: #ccc; CURSOR: pointer
+}
+#dw-navbar .s-nav EM I {
+	POSITION: absolute; WIDTH: 7px; BACKGROUND: url(dw_nav_arrow.png) no-repeat 0px 0px; HEIGHT: 4px; OVERFLOW: hidden; TOP: 16px; RIGHT: 5px
+}
+#dw-navbar .s-news {
+	POSITION: relative; MARGIN: 9px 0px 0px 15px; FLOAT: left; HEIGHT: 18px; OVERFLOW: hidden
+}
+#dw-navbar .s-news LI {
+	POSITION: relative; LINE-HEIGHT: 18px; WIDTH: 280px; PADDING-RIGHT: 32px; HEIGHT: 18px; OVERFLOW: hidden
+}
+#dw-navbar .s-news A {
+	POSITION: relative; DISPLAY: inline-block; CURSOR: pointer
+}
+#dw-navbar .s-news I {
+	POSITION: absolute; WIDTH: 28px; BACKGROUND: url(http://www.duowan.com/public/s/i/navbar/nav_stuff.png) no-repeat -62px -37px; HEIGHT: 10px; OVERFLOW: hidden; TOP: 3px; RIGHT: -32px
+}
+#dw-navbar .p-info {
+	Z-INDEX: 1; POSITION: relative; PADDING-RIGHT: 6px; FLOAT: right
+}
+* HTML #dw-navbar .guest {
+	PADDING-TOP: 7px
+}
+#dw-navbar FORM * {
+	VERTICAL-ALIGN: middle
+}
+* HTML #dw-navbar FORM A {
+	LINE-HEIGHT: 24px; DISPLAY: inline-block; VERTICAL-ALIGN: top
+}
+#dw-navbar .login-input {
+	BORDER-BOTTOM: #6f6f6f 1px solid; BORDER-LEFT: #6f6f6f 1px solid; PADDING-BOTTOM: 2px; LINE-HEIGHT: 14px; PADDING-LEFT: 2px; WIDTH: 96px; PADDING-RIGHT: 2px; FONT-FAMILY: tahoma,sans-serif; BACKGROUND: #3c3c3c; HEIGHT: 14px; COLOR: #ccc; BORDER-TOP: #6f6f6f 1px solid; MARGIN-RIGHT: 5px; BORDER-RIGHT: #6f6f6f 1px solid; PADDING-TOP: 2px
+}
+#dw-navbar .login-btn {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 3px; LINE-HEIGHT: 14px; BORDER-RIGHT-WIDTH: 0px; MARGIN: 0px 8px 0px 6px; WIDTH: 33px; DISPLAY: inline-block; BACKGROUND: url(http://www.duowan.com/public/s/i/navbar/nav_stuff.png) no-repeat 0px -37px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; HEIGHT: 18px; COLOR: #fff; BORDER-LEFT-WIDTH: 0px; CURSOR: pointer; _margin-top: 2px; _vertical-align: top
+}
+#dw-navbar .hint {
+	COLOR: #666
+}
+#dw-navbar .p-info .nav-link {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 10px; PADDING-RIGHT: 5px; PADDING-TOP: 0px
+}
+#dw-navbar .uname-wrap {
+	TEXT-ALIGN: right; WIDTH: 150px; TEXT-OVERFLOW: ellipsis; WHITE-SPACE: nowrap; FLOAT: left; HEIGHT: 36px; OVERFLOW: hidden; _line-height: 36px
+}
+#dw-navbar .p-info .username {
+	FONT-FAMILY: tahoma,sans-serif; FONT-WEIGHT: bold
+}
+#dw-navbar .new-msg {
+	COLOR: #e21f61; CURSOR: pointer; MARGIN-RIGHT: 2px
+}
+#dw-navbar .new-msg I {
+	WIDTH: 11px; DISPLAY: inline-block; BACKGROUND: url(http://www.duowan.com/public/s/i/navbar/nav_stuff.png) no-repeat -51px -37px; HEIGHT: 8px; VERTICAL-ALIGN: middle; OVERFLOW: hidden; MARGIN-RIGHT: 4px
+}
+#dw-navbar .new-msg SPAN {
+	LINE-HEIGHT: 36px; DISPLAY: inline-block
+}
+#dw-navbar .t-msg {
+	BORDER-BOTTOM: #ccc 1px solid; POSITION: absolute; BORDER-LEFT: #ccc 1px solid; PADDING-BOTTOM: 6px; LINE-HEIGHT: 20px; PADDING-LEFT: 10px; PADDING-RIGHT: 30px; WHITE-SPACE: nowrap; BACKGROUND: #fdffea; BORDER-TOP: #ccc 1px solid; TOP: 32px; RIGHT: 0px; BORDER-RIGHT: #ccc 1px solid; PADDING-TOP: 6px
+}
+#dw-navbar .t-msg A {
+	COLOR: #359fcf
+}
+#dw-navbar .t-msg .close {
+	POSITION: absolute; LINE-HEIGHT: 50px; WIDTH: 8px; BACKGROUND: url(http://www.duowan.com/public/s/i/navbar/nav_stuff.png) -92px -37px; HEIGHT: 7px; OVERFLOW: hidden; TOP: 7px; RIGHT: 7px
+}
+#dw-navbar .nav-popup {
+	TOP: 32px; LEFT: 0px
+}
+#dw-navbar .p-info .nav-popup {
+	RIGHT: -5px; LEFT: auto
+}

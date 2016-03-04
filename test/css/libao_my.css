@@ -1,0 +1,150 @@
+/*礼包css*/
+.mainerbox{ width:1190px; margin:0 auto; font-family:"Microsoft Yahei";}
+.mainer{ border:1px solid #D5D5D5; margin-top:20px; width:1188px;}
+.breadnav{ height:44px; line-height:44px; border-bottom:1px solid #D5D5D5; font-size:14px; color:#666; padding:0px 20px; background-color:#F9F9F9;}
+.breadnav span{ float:right; margin-top:7px;}
+.breadnav span a{ display:inline-block; width:98px; height:28px; line-height:28px; text-align:center; color:#fff; background-color:#ff5555; border-radius:4px;}
+.breadnav span a:hover{ color:#fff;}
+.breadnav a{ color:#666;}
+.breadnav a:hover{ color:#f6505c;}
+.mainercontent{ background-color:#fff; padding:15px;}
+
+
+/*我的礼包中心 css*/
+
+/*我的游戏*/
+/*.mainercontent{ width:1148px; margin:0 auto; overflow:hidden;}
+.mainercontent ul{ width:1168px;}
+.mainercontent ul li{ float:left; width:270px; height:148px; border:1px solid #E5E5E5; margin-right:20px; margin-bottom:20px; position:relative;}
+.mainercontent ul li .tline{ padding:12px;}
+.mainercontent ul li a.bbx_pic{ float:left; margin-right:10px;}
+.mainercontent ul li a.bbx_pic img{ width:88px; height:88px;}
+
+.mainercontent ul li .bline{ height:35px; background-color:#fafafa; border-top:1px solid #E5E5E5; padding:0 12px;}
+.mainercontent ul li .bline a.green{ float:left; display:inline-block; width:88px; text-align:center; height:24px; line-height:24px; background-color:#99CC00; color:#fff; border-radius:3px; margin-top:5px;}
+.mainercontent ul li .bline a.green:hover{  background-color:#87B400; color:#fff;}
+.mainercontent ul li .bline span{ line-height:35px; color:#666; padding-right:8px; margin-left:10px; font:normal 14px/35px "Microsoft Yahei"}
+.mainercontent ul li .bline span b{ font-weight:normal; color:#ff5555; padding:0px 7px;}
+.mainercontent ul li .bline span a{ margin-right:5px;}
+
+.mainercontent ul li .info2{ float:left; width:145px;}
+.mainercontent ul li .info2 a.name{ display:inline-block; font-size:16px; height:34px; line-height:34px; overflow:hidden;}
+.mainercontent ul li .info2 p{ font-size:12px; height:24px; line-height:24px; color:#888; margin-top:3px; overflow:hidden;white-space:nowrap; *white-space:normal; text-overflow:ellipsis;}
+.mainercontent ul li .info2 span.pintai2{ float:right;}
+.mainercontent ul li .info2 span.pintai2 i{ display:inline-block; width:24px; height:24px; background:url(../images/bg_icon.png) no-repeat; margin-left:4px; overflow:hidden;}
+.mainercontent ul li .info2 span.pintai2 i.icon-android{ background-position:0 -474px;}
+.mainercontent ul li .info2 span.pintai2 i.icon-apple{ background-position:-28px -474px;}
+.mainercontent ul li .info2 span.pintai2 i.icon-apple2{ background-position:-56px -474px;}*/
+
+/*我的应用我的游戏关闭*/
+/*.mainercontent ul li a.close{ position:absolute; top:5px; right:5px; display:block; width:11px; height:11px; overflow:hidden; background:url(../images/bbx_iconclose.gif) no-repeat;}
+.mainercontent ul li a:hover.close{ background:url(../images/bbx_iconclose.gif) no-repeat -11px 0;}*/
+
+
+.onegame{ position:relative; height:174px; z-index:1;}
+.onegame .openhover{ background-color:#fff; border:2px solid #fff; float:left;}
+.onegame .thegame{ float:left; padding:10px; padding-right:0px;/* margin-right:13px;*/ background-color:#fff; border:2px solid #fff; border-right:0px; position:absolute; z-index:1;}
+.onegame .thegame .thegameinfo{width:270px; height:148px; background-color:#fff; border:1px solid #E5E5E5; }
+.onegame .thelibao{ float:left; position:absolute; left:286px; z-index:1; padding-top:14px;}
+.onegame .thelibao ul{ width:883px;}
+.onegame .thelibao ul li{ float:left; width:270px; height:148px; _display:inline; background-color:#fff; border:1px solid #e5e5e5; margin-left:13px; /*margin-bottom:20px;*/}
+
+.onegame .libaoopen{ float:left; /*background-color:#fff; height:140px;*/ display:none; width:868px; overflow:hidden; position:absolute; left:284px; background-color:#FFFBE5; border:2px solid #C98936; z-index:2; padding-top:10px;}
+.onegame .libaoopen ul{ width:883px; *padding-bottom:24px;}
+.onegame .libaoopen ul .emptyline{ height:160px; *height:136px;}
+.onegame .libaoopen ul li{ float:left; width:270px; height:148px; _display:inline; background-color:#fff; border:1px solid #e5e5e5; margin-left:13px; margin-bottom:24px;}
+.gamecontenthover{ z-index:2;}
+.gamecontenthover .openhover{}
+.gamecontenthover .thegame{ background-color:#FFFBE5; border:2px solid #C98936; border-right:0px; z-index:4;}
+.gamecontenthover .thelibao{ z-index:2}
+.gamecontenthover .libaoopen{ z-index:3;}
+.gamecontenthover .libaoopen{ display:block;}
+
+
+/*我的游戏*/
+/*.thegameinfo{ float:left; width:270px; height:148px; border:1px solid #E5E5E5; margin-right:20px; margin-bottom:20px; position:relative;}*/
+.thegameinfo .tline{ padding:12px;}
+.thegameinfo a.bbx_pic{ float:left; margin-right:10px;}
+.thegameinfo a.bbx_pic img{ width:88px; height:88px;}
+.thegameinfo a.bbx_pic img.pic{ border-radius:14px;}
+
+.thegameinfo .bline{ height:35px; background-color:#fafafa; border-top:1px solid #E5E5E5; padding:0 12px;}
+.thegameinfo .bline a.thebtn{ float:left; display:inline-block; width:88px; text-align:center; height:24px; line-height:24px; border-radius:3px; margin-top:5px;}
+.thegameinfo .bline a.green{ background-color:#99CC00; color:#fff;}
+.thegameinfo .bline a.green:hover{  background-color:#87B400; color:#fff;}
+.thegameinfo .bline a.pink{ background-color:#FF8A8A; color:#fff;}
+.thegameinfo .bline a.pink:hover{  background-color:#FF5555; color:#fff;}
+.thegameinfo .bline a.yellow{ background-color:#FFA800; color:#fff;}
+.thegameinfo .bline a.yellow:hover{  background-color:#FF7200; color:#fff;}
+.thegameinfo .bline a.grey{ background-color:#999999; color:#fff;}
+.thegameinfo .bline a.grey:hover{  background-color:#333; color:#fff;}
+
+.thegameinfo .bline span{ line-height:35px; color:#666; padding-right:8px; margin-left:10px; font:normal 14px/35px "Microsoft Yahei"}
+.thegameinfo .bline span b{ font-weight:normal; color:#ff5555; padding:0px 7px;}
+.thegameinfo .bline span a{ margin-right:5px;}
+
+
+/*关闭*/
+.thegameinfo a.close{ position:absolute; top:15px; right:5px; display:block; width:11px; height:11px; overflow:hidden; background:url(../images/bbx_iconclose.gif) no-repeat;}
+.thegameinfo a:hover.close{ background:url(../images/bbx_iconclose.gif) no-repeat -11px 0;}
+
+.thegameinfo .info2{ float:left; width:145px;}
+.thegameinfo .info2 a.name{ display:inline-block; font-size:16px; height:34px; line-height:34px; overflow:hidden;}
+.thegameinfo .info2 p{ font-size:12px; height:24px; line-height:24px; color:#888; margin-top:3px; overflow:hidden;white-space:nowrap; *white-space:normal; text-overflow:ellipsis;}
+.thegameinfo .info2 span.pintai2{ float:left;}
+.thegameinfo .info2 span.pintai2 i{ display:inline-block; width:24px; height:24px; background:url(../images/bg_icon.png) no-repeat; margin-right:4px; overflow:hidden;}
+.thegameinfo .info2 span.pintai2 i.icon-android{ background-position:0 -474px;}
+.thegameinfo .info2 span.pintai2 i.icon-apple{ background-position:-28px -474px;}
+.thegameinfo .info2 span.pintai2 i.icon-apple2{ background-position:-56px -474px;}
+
+/*我的礼包*/
+ul.libaoul li{ position:relative;}
+ul.libaoul li .tline{ padding:12px;}
+ul.libaoul li a.bbx_pic{ float:left; margin-right:10px;}
+ul.libaoul li a.bbx_pic img{ width:88px; height:88px;}
+ul.libaoul li a.bbx_pic img.pic{ border-radius:14px;}
+
+ul.libaoul li .bline{ height:35px; background-color:#fafafa; border-top:1px solid #E5E5E5; padding:0 12px; padding-right:10px;}
+ul.libaoul li .bline a.thebtn{ float:left; display:inline-block; width:88px; text-align:center; height:24px; line-height:24px; border-radius:3px; margin-top:5px;}
+ul.libaoul li .bline a.green{ background-color:#99CC00; color:#fff;}
+ul.libaoul li .bline a.green:hover{  background-color:#87B400; color:#fff;}
+ul.libaoul li .bline a.green{ background-color:#99CC00; color:#fff;}
+ul.libaoul li .bline a.green:hover{  background-color:#87B400; color:#fff;}
+ul.libaoul li .bline a.pink{ background-color:#FF8A8A; color:#fff;}
+ul.libaoul li .bline a.pink:hover{  background-color:#FF5555; color:#fff;}
+ul.libaoul li .bline a.yellow{ background-color:#FFA800; color:#fff;}
+ul.libaoul li .bline a.yellow:hover{  background-color:#FF7200; color:#fff;}
+ul.libaoul li .bline a.grey{ background-color:#999999; color:#fff;}
+ul.libaoul li .bline a.grey:hover{  background-color:#333; color:#fff;}
+
+
+ul.libaoul li .bline span{ line-height:35px; color:#666; font:normal 14px/35px "Microsoft Yahei"}
+ul.libaoul li .bline span b{ font-weight:normal; color:#ff5555; padding:0px 7px;}
+ul.libaoul li .bline span a{ margin-right:5px;}
+
+ul.libaoul li .bline .syl{ float:right; line-height:34px; width:150px; padding-left:10px; color:#666;}
+ul.libaoul li .bline .syl b{ font-weight:normal; color:#ff5555; padding:0px 2px;}
+ul.libaoul li .bline .syl p{ float:right; border-radius:2px; border:1px solid #DADADA; padding:1px; height:14px; line-height:14px; width:79px; overflow:hidden; background:url(../images/syl.gif) no-repeat 1px -15px; margin-top:7px;}
+ul.libaoul li .bline .syl p span{ display:inline-block; height:14px; background:url(../images/syl.gif) no-repeat left top;}
+
+/*关闭*/
+ul.libaoul li a.close{ position:absolute; top:5px; right:5px; display:block; width:11px; height:11px; overflow:hidden; background:url(../images/bbx_iconclose.gif) no-repeat;}
+ul.libaoul li a:hover.close{ background:url(../images/bbx_iconclose.gif) no-repeat -11px 0;}
+
+ul.libaoul li .info2{ float:left; width:145px;}
+ul.libaoul li .info2 a.name{ display:inline-block; font-size:16px; height:34px; line-height:34px; overflow:hidden;}
+ul.libaoul li .info2 p{ font-size:12px; height:24px; line-height:24px; color:#888; margin-top:3px; overflow:hidden;white-space:nowrap; *white-space:normal; text-overflow:ellipsis;}
+ul.libaoul li .info2 p.state span{ float:right;}
+ul.libaoul li .info2 p.state span.red{ color:#ff5555;}
+ul.libaoul li .info2 p.state span.green{ color:#0BB703;}
+ul.libaoul li .info2 span.pintai2{ float:left;}
+ul.libaoul li .info2 span.pintai2 i{ display:inline-block; width:24px; height:24px; background:url(../images/bg_icon.png) no-repeat; margin-right:4px; overflow:hidden;}
+ul.libaoul li .info2 span.pintai2 i.icon-android{ background-position:0 -474px;}
+ul.libaoul li .info2 span.pintai2 i.icon-apple{ background-position:-28px -474px;}
+ul.libaoul li .info2 span.pintai2 i.icon-apple2{ background-position:-56px -474px;}
+
+.page{ padding:30px 15px; text-align:right;}
+.page a{ display:inline-block; height:38px; line-height:38px; padding:0px 14px; color:#666; background-color:#F2F2F2; font-size:14px; border-radius:5px;}
+.page a:hover{ color:#119CD5;}
+.page a.on{ background-color:#119CD5; color:#fff;}
+.page a.on:hover{ color:#fff;}

@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* 图文文章列表页 CSS */
+.mainerbox{ width:1190px; margin:0 auto;}
+.mainer{ border:1px solid #D5D5D5; margin-top:20px; width:1188px;}
+.breadnav{ height:44px; line-height:44px; border-bottom:1px solid #D5D5D5; font-size:14px; color:#666; padding:0px 20px; background-color:#F9F9F9;}
+.breadnav a{ color:#666;}
+.breadnav a:hover{ color:#f6505c;}
+.tag_content{ background-color:#FFF; padding:18px 0 25px 18px;}
+
+
+
+/*标签排行榜*/
+.tagtop{ float:left; width:372px; overflow:hidden; margin-right:18px;}
+.tagtop h3{ font-weight:normal; text-align:right; border-bottom:2px solid #EBEBEB; height:44px; line-height:44px; padding-bottom:2px; position:relative;}
+.tagtop h3 span{ float:left; position:absolute; left:0px; top:0px;}
+.tagtop h3 span a{ font-family:"Microsoft Yahei"; font-size:18px; border-bottom:2px solid #EBEBEB; color:#333; display:inline-block; padding:0px 4px; padding-bottom:2px; color:#333; border-bottom:2px solid #ff5555;}
+.tagtop h3 a.more{ font-size:12px; position:absolute; right:0px; top:5px;}
+
+
+.tagall{ color:#666; width:372px; /*background-color:#0FF;*/ padding:10px 0px; }
+.tagall .firsttit{ font:normal 14px/40px "宋体"; }
+.tagall .firsttit span{ display:inline-block;}
+.tagall .firsttit span.t1{ width:49px;}
+.tagall .firsttit span.t2{ width:253px;}
+.tagall .firsttit span.t3{ width:60px; padding-left:10px; text-align:center;}
+/*.tagall .firsttit span.t4{ width:50px; text-align:center;}*/
+
+.banglinebox{ _height:620px;}
+.tagall li{ width:372px; margin:3px 0; float:left; height:30px; overflow:hidden; /*display:inline;*/   /*line-height:28px; height:28px; overflow:hidden;*/}
+.tagall li .gamerank{/* height:28px; line-height:28px;*/ padding:5px 0px; height:20px;}
+.tagall li .gamerank .ranknum{ float:left; width:49px;}
+.tagall li .gamerank .ranknum em{ display:inline-block; width:20px; margin-right:14px; height:20px; text-align:center; color:#FFF; background-color:#666666; font:normal 12px/20px "Microsoft Yahei"; border-radius: 3px;}
+.tagall li .gamerank .q3 em{ background-color:#ff5555; color:#fff;}
+.tagall li .gamerank .game{ float:left; width:253px; height:20px; line-height:20px; overflow:hidden; font-size:14px; font-family:"宋体";}
+.tagall li .gamerank .pv{ float:left; width:60px; padding-left:10px;font-size:14px; font-family:"Microsoft Yahei"; color:#ccc; text-align:center;}
+.tagall li .gamerank .updown{ float:left; width:50px; text-align:center;}
+.tagall li .gamerank .b_up{ color:#ed5c8d;}
+.tagall li .gameinfo{ position:relative; width:372px; height:110px; padding-bottom:10px; display:none;}
+.tagall li.on .gameinfo{ display:block;}
+.tagall li .gameinfo img{ width:372px; height:110px;}
+.tagall li .gameinfo p{ position:absolute; bottom:10px; left:0px; height:25px; line-height:25px; background-color:#555; background:rgba(0, 0, 0, .7); width:372px; text-align:center;}
+.tagall li .gameinfo p a{ width:50%; color:#fff; float:left;}
+
+
+/*标签展开与收缩*/
+.shouqi { float:right; width:75px; height:28px; text-align: left; font:normal 14px/28px "宋体"; border: 1px solid #cccccc;cursor: pointer;border-radius: 3px; background:#f3f1f1 url(../images/up_ico.png) no-repeat  68px 10px; padding-left:10px; }
+.shouqi:hover{background:#ff5555 url(../images/up_ico2.png) no-repeat  68px 10px; padding-left:10px; border: 1px solid #ff5555; color:#FFF; }
+.zhangkai { float:right; width:75px; height:28px; text-align: left; font:normal 14px/28px "宋体"; border: 1px solid #cccccc;cursor: pointer;border-radius: 3px; background:#f3f1f1 url(../images/dow_ico.png) no-repeat  68px 10px; padding-left:10px; margin-top:10px; }
+.zhangkai:hover{background:#ff5555 url(../images/dow_ico2.png) no-repeat  68px 10px; padding-left:10px; border: 1px solid #ff5555; color:#FFF;  }
+

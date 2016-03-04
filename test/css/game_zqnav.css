@@ -1,0 +1,68 @@
+@charset "utf-8";
+/* 图文文章列表页 CSS */
+.mainerbox{ width:1190px; margin:0 auto;}
+.breadnav{ height:44px; line-height:44px; border-bottom:1px solid #D5D5D5; font-size:14px; color:#666; padding:0px 20px; background-color:#F9F9F9;}
+.breadnav a{ color:#666;}
+.breadnav a:hover{ color:#f6505c;}
+
+.game_content{ width:1188px; border:1px solid #D5D5D5; margin-top:20px;  background-color:#FFF; }
+/*专区导航*/
+.game_nav{ width:1170px; padding-left:18px;}
+.game_nav .game_daohang{ float:left; width:1152px; height:68px;}
+.game_nav .game_daohang ul{}
+.game_nav .game_daohang li{ float:left;   }
+.game_nav .game_daohang li a{color:#666; height:48px; background:#eaeaea; padding: 20px 20px 0px 20px; display:inline-block;  font:normal 24px/48px "微软雅黑"; border-radius: 0px 0px 5px 5px; margin-right:20px;}
+.game_nav .game_daohang li a:hover{color:#FFF; background:#4baef2; padding: 20px 20px 0px 20px; display:inline-block;  font:normal 24px/48px "微软雅黑"; border-radius: 0px 0px 5px 5px; margin-right:20px;}
+
+.game_nav .game_daohang span{ float:left; color:#FFF; background:#ff5555; padding: 20px 20px 0px 20px; display:inline-block;  font:normal 24px/48px "微软雅黑"; border-radius: 0px 0px 5px 5px; margin-right:20px;}
+.game_nav .game_daohang .on a{color:#FFF; background:#4baef2; padding: 20px 20px 0px 20px; display:inline-block;  font:normal 24px/48px "微软雅黑"; border-radius: 0px 0px 5px 5px; margin-right:20px;}
+
+.game_text { float:left; width:1152px; margin:20px 0;}
+.game_text ul{}
+.game_text li{ float:left; width:1152px; overflow:hidden; border-bottom:1px dashed #DDD; padding:12px 0; font:normal 14px/29px "微软雅黑";}
+.game_text li span{ float:left; width:29px; height:29px; overflow:hidden; display:block; text-align:center; font:normal 14px/29px "微软雅黑"; background:#eaeaea; border-radius: 4px; margin-right:15px;}
+.game_text li b{ float:left; width:1108px; font-weight:normal;}
+.game_text li b a{ margin-right:15px; }
+.game_text li b a:hover{ text-decoration:underline;}
+
+.conNo{ display:none;}
+
+/*手机网游专区*/
+.wy_game{ float:left; width:1172px; border-top:2px solid #ff5555; margin-left:-1px; padding-left:18px; margin-bottom:40px;}
+.wy_game .wy_biaoti{ float:left; height:54px; font:normal 24px/60px "微软雅黑"; background:#ff5555; text-align: center; padding:0 20px; border-radius: 0px 0px 4px 4px; color:#FFF; }
+
+.wy_game .wy_list{ width:1172px; height:344px; overflow:hidden; position:relative;}
+.wy372{ float:left; width:372px; height:314px; overflow:hidden; margin:20px 18px 10px 0;}
+.wy372 .wy372_top{ float:left; width:372px; overflow:hidden; position:relative;}
+.wy372 .wy372_top .wyd { width:352px; height:40px; overflow:hidden; display:block; _background:#666; _margin-bottom:-1px; background:rgba(0,0,0,.75);filter:progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#99000000',endColorstr='#99000000'); position:absolute; bottom:0px; left:0; font:normal 18px/40px "微软雅黑"; color:#FFF; border-left:10px solid #ff5555; padding:0 5px;}
+.wy372 .wy372_top .wyd a{ color:#FFF;}
+.wy372 .wy372_top .wyd a:hover{ color:#ff5555; text-decoration:underline;}
+.wy372 .wy372_top .wyd em{float: right;  display:block;text-align: left; color:#fff;overflow:hidden;font:normal 14px/40px "宋体"}
+.wy372 ul{ float:left; margin-top:10px;}
+.wy372 li{ float:left; width:362px; height:30px; overflow:hidden; font:normal 14px/30px "宋体"; padding-left:10px; background:url(../images/dian.jpg) no-repeat left center;}
+.wy372 li a{ color:#666; text-decoration:none;}
+.wy372 li a:hover{ color:#ff5555; text-decoration:underline;}
+
+
+/*单机游戏专区*/
+.danji_game{ float:left; width:1172px; border-top:2px solid #4baef2; margin-left:-1px; padding-left:18px; margin-bottom:40px;}
+.danji_game .danji_biaoti{ float:left; height:54px; font:normal 24px/60px "微软雅黑"; background:#4baef2; text-align: center; padding:0 20px; border-radius: 0px 0px 4px 4px; color:#FFF; }
+
+.danji_game .danji_list{ width:1172px; height:344px; position:relative; overflow:hidden;}
+.danji372{ float:left; width:372px; overflow:hidden; margin:20px 18px 10px 0;}
+.danji372 .danji372_top{ float:left; width:372px; overflow:hidden; position:relative;}
+.danji372 .danji372_top .wyd { width:352px; height:40px; overflow:hidden; display:block; _background:#666; _margin-bottom:-1px; background:rgba(0,0,0,.75);filter:progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#99000000',endColorstr='#99000000'); position:absolute; bottom:0px; left:0; font:normal 18px/40px "微软雅黑"; color:#FFF; border-left:10px solid #4baef2; padding:0 5px;}
+.danji372 .danji372_top .wyd a{ color:#FFF;}
+.danji372 .danji372_top .wyd a:hover{ color:#ff5555; text-decoration:underline;}
+.danji372 .danji372_top .wyd em{float: right;  display:block;text-align: left; color:#fff;overflow:hidden;font:normal 14px/40px "宋体"}
+.danji372 ul{ float:left; margin-top:10px;}
+.danji372 li{ float:left; width:362px; height:30px; overflow:hidden; font:normal 14px/30px "宋体"; padding-left:10px; background:url(../images/dian.jpg) no-repeat left center;}
+.danji372 li a{ color:#666; text-decoration:none;}
+.danji372 li a:hover{ color:#ff5555; text-decoration:underline;}
+
+
+/*展开与收缩*/
+.shouqi { width:414px; height:45px; text-align: center; font:normal 14px/45px "宋体"; cursor: pointer;border-radius: 3px; background:#404952;color:#FFF; padding-left:10px; margin:0 auto; }
+.shouqi:hover{ padding-left:10px; color:#FFF; background:#ff5555; }
+.zhangkai { width:414px; height:45px; text-align: center; font:normal 14px/45px "宋体"; cursor: pointer;border-radius: 3px; padding-left:10px; margin-top:10px;  margin:0 auto; background:#404952;color:#FFF;}
+.zhangkai:hover{ padding-left:10px;  background:#ff5555  }

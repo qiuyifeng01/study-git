@@ -1,0 +1,124 @@
+@charset "utf-8";
+
+body{ _height:100%;}
+*body{background-image:url(about:blank);background-attachment:fixed;/*必要，防抖动*/}
+*html .mpopobox{position:absolute;left:expression('0');top:expression(eval(document.documentElement.scrollTop+0))}
+*html .mpopsimple{position:absolute;left:expression('0');top:expression(eval(document.documentElement.scrollTop+0))}
+
+/* 普通提示层 CSS */
+.mpopsimple{ position:fixed; top:0px; width:100%; margin-top:100px; z-index:8888;}
+.mpopsimple .mpoptipsline{width:360px; margin:0 auto; position:relative;}
+.mpopsimple .mpoptipsline .mpoptipsbox{ line-height:21px;  font-family:"Microsoft Yahei"; font-size:13px; color:#fff; position:absolute; z-index:9000; left:0px; top:0px; width:360px; padding:15px 0px;}
+.mpopsimple .mpoptipsline .mpoptipsbox p{ text-align:center;}
+.mpopsimple .mpoptipsline .mpoptipsbox p span{ color:#FF5555;}
+.mpopsimple .mpoptipsline .mpoptipsbg{ background:#000; filter:alpha(opacity=70);opacity:0.7; position:absolute; z-index:8999; left:0px; top:0px; width:360px; height:72px; border-radius:10px;}
+
+/* 存号箱层 CSS*/
+#mpop-cunhao .mpop{ /*width:525px;*/}
+.mcunhaoxiang h3{ padding:12px 10px 0px 10px; margin-bottom:8px; border-bottom:1px solid #E6E6E6; font-weight:normal; font-family:"Microsoft Yahei", simsun;}
+.mcunhaoxiang h3 span{ float:right; font-size:30px; margin-top:-6px; cursor:pointer;}
+.mcunhaoxiang h3 a{ font-size:18px; color:#000; border-bottom:1px solid #E6E6E6; border-left:1px solid #fff; border-right:1px solid #fff; border-top:2px solid #fff; padding:7px 15px; margin-right:5px; display:inline-block; position:relative; top:1px;}
+.mcunhaoxiang h3 a.on{border-bottom:1px solid #fff; border-left:1px solid #E6E6E6; border-right:1px solid #E6E6E6; border-top:2px solid #FF5555;}
+.mcunhaoxiang ul{ margin:0 19px; display:none; padding-bottom:20px; height:224px; overflow-y:auto;}
+.mcunhaoxiang ul .tit{ background-color:#404952; color:#fff; font-size:14px; font-weight:bold; height:35px; line-height:35px; display: flex; flex-flow: row;}
+.mcunhaoxiang ul .tit span{ display:inline-block;}
+.mcunhaoxiang ul .tit1{  padding:0 15px;  flex:1; /*width:200px; padding-left:15px;*/}
+.mcunhaoxiang ul .tit2{ width:50%; text-align:center; /*width:240px; text-align:center;*/}
+.mcunhaoxiang ul li{ /*height:60px; line-height:60px;*/ border-bottom:1px dashed #E6E6E6;
+/*display: flex;
+	flex-flow: wrap;
+  align-items: stretch;
+  justify-content: space-around;*/
+}
+.mcunhaoxiang ul li span.lbname{ display:inline-block; /*width:215px;*/ font-size:14px; padding-top:20px; /*height:60px;*/ overflow:hidden; float:left;}
+.mcunhaoxiang ul li span.lbcopy{ display:inline-block; float:right; padding:15px 0px; width:245px;}
+.mcunhaoxiang ul li input{ float:left;}
+.mcunhaoxiang ul li input.text{ width:180px; border:1px solid #e6e6e6; height:30px; line-height:30px; border-right:0px; font-size:14px; padding-left:6px; color:#666;}
+.mcunhaoxiang ul li input.button{ background-color:#FF5555; border:1px solid #FF5555; width:58px; text-align:center; color:#fff; height:32px; line-height:32px; font-size:14px; cursor:pointer;}
+.mcunhaoxiang ul li input.on{ background-color:#999; border-color:#999;}
+.mcunhaoxiang ul li span.lbtime{float:right; text-align:right; font-size:14px; color:#666; padding:15px 0px; _margin-top:15px; /*display:inline-block;  margin-top:15px;*/}
+.mcunhaoxiang ul li span.lbtime a{ display:inline-block; height:30px; line-height:30px; background-color:#FF5555; border:1px solid #FF5555; color:#fff; width:58px; text-align:center; margin-left:15px;}
+.mcunhaoxiang ul li span.lbtime a.on{ background-color:#999; border-color:#999;}
+.mcunhaoxiang ul.onmchxtab{ display:block;}
+
+/* 弹出层 CSS */
+.mpopobox{ position:fixed; top:0px; width:100%; height:100%; /*background:rgba(0,0,0,.5);*/ z-index:8888; }
+
+.mpopbg{ background-color:#333; width:100%; height:100%; position:absolute; top:0px; left:0px; filter:alpha(opacity=50);opacity:0.5; z-index:8999;}
+.mpop{ /*width:420px;*/ margin:50px auto; border:4px solid #404952; background-color:#fff; position:relative;z-index:9000; }
+.mpop h2.mpop-titline{ background-color:#404952; color:#fff; height:45px; line-height:40px; font-size:18px; font-family:"Microsoft Yahei", simsun; font-weight:normal; padding:0 10px; text-align:center;}
+.mpop h2.mpop-titline span.mpop-close{ float:right; width:18px; cursor:pointer; background:url(../images/icon_close.gif) no-repeat center center;}
+
+.mpop .mpop-mainer{ padding:15px;}
+
+.sub-btn{ height:32px; line-height:32px; width:208px; text-align:center; color:#fff; background-color:#99CC00; font-weight:bold; font-size:14px; border:0px; cursor:pointer;}
+
+/* 登录-注册 CSS */
+#mpop-login .mpop{ /*width:330px;*/}
+
+.loginout{ margin-bottom:10px;}
+.loginout a{ display:inline-block; background-color:#F8F8F8; color:#666; border:1px solid #E3E3E3; height:24px; line-height:24px; width:48px; text-align:center; font-size:12px; font-weight:normal; margin-right:2px; border-radius:2px;}
+.loginout a.on{background-color:#99CC00; color:#fff; border:1px solid #99CC00;}
+
+.mpopsubbtn{ text-align:center;}
+
+.entermpop{ display:block;}
+.regmpop{ display:none;}
+.mpopformbox .cell{ height:32px; margin-bottom:6px; /*position:relative;*/ display: flex; flex-flow: row;}
+.mpopformbox .cell span{ display:inline-block; width:60px; height:30px; line-height:30px; color:#666; float:left;}
+.mpopformbox .cell p{ float:left;  flex: 1; width:100%; border:1px solid #CDCDCD; padding:4px 8px;}
+.mpopformbox .cell input.mtextcell{ height:20px; line-height:20px; border:0px; width:100%; outline:none; /*width:224px;*/}
+.mpopformbox .remembercell{ display:block;}
+.mpopformbox .remembercell span{ float:left; color:#A9A9A9; width:70px; *width:74px;}
+.mpopformbox .remembercell a{ float:right;}
+.mpopformbox .remembercell{ text-align:right; height:32px; line-height:32px; padding-right:8px;}
+.mpopformbox .remembercell input{ position:relative; top:2px; margin-right:5px;}
+
+.errortip{ padding:5px 0px; color:#f00;}
+
+/*预定成功 css*/
+.mpop-yuding p{ text-align:center; font-family:"Microsoft Yahei"; color:#777; margin-bottom:10px;}
+.mpop-yuding p.suc-tip{ font-size:18px; color:#626262;}
+.mpop-yuding p b{ color:#ff5555;}
+
+/*礼包 css*/
+#mpop-libao .mpop,#mpop-libao2 .mpop,#mpop-libao3 .mpop{ /*width:625px;*/}
+.mpop-libao{ font-family:"Microsoft Yahei";}
+.mpop-libao .mpoptip{ font-size:16px; color:#666; padding:15px 0px 25px; text-align:center;}
+.mpop-libao .mpoptip h2{ font-size:18px; font-weight:normal; margin-bottom:15px;}
+.mpop-libao .mpoptip h2 a{ color:#ff5555; text-decoration:underline;}
+.mpop-libao .mpoptip h2 a:hover{ text-decoration:none;}
+.mpop-libao .mpoptip b{ font-weight:normal; color:#ff5555;}
+.mpop-libao .mpoplibao{ /*width:595px;*/ overflow:hidden;}
+.mpop-libao .mpoplibao ul{ /*width:620px;*/ height:142px; overflow-y:auto;display: flex;
+  flex-flow: wrap;
+  align-items: stretch;
+  justify-content: center;
+  }
+.mpop-libao .mpoplibao ul li{ float:left; width:180px; height:50px; padding:5px; overflow:hidden; border:1px solid #E3E3E3; background-color:#fff; margin-right:9px; margin-bottom:9px;}
+.mpop-libao .mpoplibao ul li .mpoplistpic{ width:50px; height:50px; overflow:hidden; float:left; margin-right:5px;}
+.mpop-libao .mpoplibao ul li .mpoplistpic img{ width:50px; height:50px; border-radius:6px;}
+.mpop-libao .mpoplibao ul li .mpoplistinfo{ float:left; width:125px;}
+.mpop-libao .mpoplibao ul li .mpoplistinfo h3{ font-weight:normal; height:21px; line-height:21px; overflow:hidden; margin-bottom:4px;}
+.mpop-libao .mpoplibao ul li .mpoplistinfo h3 a{ color:#666; font-size:14px;}
+.mpop-libao .mpoplibao ul li .mpoplistinfo h3 a:hover{ color:#ff5555;}
+.mpop-libao .mpoplibao ul li .mpoplistinfo p a{display:inline-block; width:45px; text-align:center; height:22px; line-height:22px; background-color:#99CC00; color:#fff; border-radius:4px; margin-right:5px;}
+.mpop-libao .mpoplibao ul li .mpoplistinfo p a:hover{ background-color:#87B400;}
+.mpop-libao .mpoplibao ul li .mpoplistinfo p span{ color:#666;}
+.mpop-libao .mpoplibao ul li .mpoplistinfo p span b{ font-weight:normal; color:#ff5555;}
+.mpop-libao .mpoplibao .mpoplistmore{ text-align:right; padding-right:3px; font-family:simsun; margin-top:5px;}
+
+.mpop-libao .mpopcopyline{ padding:10px 0px;}
+.mpop-libao .mpopcopyline .mpopcopy{ width:280px; margin:0 auto;}
+.mpop-libao .mpopcopyline .mpopcopy span{ float:left; display:inline-block; height:32px; line-height:32px; padding:0px 10px; border:1px solid #7EC71E; border-right:0px; text-align:center; width:190px; color:#333; font-size:14px; color:#666;}
+.mpop-libao .mpopcopyline .mpopcopy a{ float:left; display:inline-block; width:69px; height:34px; line-height:34px; text-align:center; color:#fff; background-color:#7EC71E; font-size:16px;}
+
+/*确认框 css*/
+#mpop-queren .mpop{ /*width:330px;*/}
+.mpop-queren{ font-family:"Microsoft Yahei";}
+.mpop-queren h3{ font-size:16px; font-weight:normal; text-align:center; padding:10px 0px;}
+.mpop-queren p{ text-align:center; padding:10px 0px;}
+
+.mpop-queren p a{ display:inline-block; height:30px; line-height:30px; width:75px; text-align:center; font-size:14px; background-color:#666; color:#fff; border-radius:4px;}
+.mpop-queren p a#querenyes{ background-color:#99CC00; margin-right:75px;}
+.mpop-queren p a:hover{filter:alpha(opacity=85); opacity:0.85; color:#fff;}

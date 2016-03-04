@@ -1,0 +1,118 @@
+/*百宝箱css*/
+.mainerbox{ width:1190px; margin:0 auto; font-family:"Microsoft Yahei";}
+.mainer{ border:1px solid #D5D5D5; margin-top:20px; width:1188px;}
+.breadnav{ height:44px; line-height:44px; border-bottom:1px solid #D5D5D5; font-size:14px; font-family:"宋体"; color:#666; padding:0px 20px; background-color:#F9F9F9;}
+.breadnav a{ color:#666;}
+.breadnav a:hover{ color:#f6505c;}
+
+
+
+/*百宝箱 css*/
+.baibaoxiang{ font-family:"Microsoft Yahei"; background:#FFF;}
+/*试玩*/
+.baibaoxiang .bbx_sw{ color:#4B4A48; font-size:30px; font-weight:normal; padding:30px 20px;}
+.baibaoxiang .bbx_sw span{ color:#4B4A48; font-size:30px; font-weight:normal; margin-bottom:10px; display:inline-block;}
+.baibaoxiang .bbx_sw p{ color:#4B4A48; font-size:14px; line-height:30px; font-weight:normal; text-indent:4em;}
+
+/*百宝箱小标题*/
+.bbx_smalltit{ width:1190px; height:56px; position:relative;}
+.bbx_smalltit .le{ width:8px; height:56px; overflow:hidden; background:url(../images/bbx_bj.gif) no-repeat 0 0; position:absolute; left:-8px; top:0;}
+.bbx_smalltit .ri{ width:8px; height:56px; overflow:hidden; background:url(../images/bbx_bj.gif) no-repeat -8px 0; position:absolute; right:-6px; top:0;}
+.bbx_smalltit .zhong{ float:left; width:1190px; height:40px; margin:8px 0;background:#404952; }
+.bbx_smalltit .zhong .bbx_left{float:left; margin-left:20px; _margin-left:10px; }
+.bbx_smalltit .zhong .bbx_left a{ float:left; height:35px; display:block; background:#404952;  font:normal 16px/30px "Microsoft Yahei";  color:#FFF; margin-top:5px; padding:0 15px;}
+.bbx_smalltit .zhong .bbx_left .on_left{ background:#FFF; color:#333;}
+.bbx_smalltit .zhong .bbx_left a:hover{ color:#ff5555; /*text-decoration:underline;*/}
+.bbx_smalltit .zhong .bbx_right{float:right; margin-right:20px;}
+.bbx_smalltit .zhong .bbx_right a{ float:left; display:block; background:#404952;  font:normal 16px/30px "Microsoft Yahei";  color:#FFF; margin-top:5px; padding:0 15px;}
+.bbx_smalltit .zhong .bbx_right .on_left{ background:#FFF; color:#333;}
+.bbx_smalltit .zhong .bbx_right a:hover{ background:#ff5555; color:#FFF;}
+
+.bbx_hottuijian{ float:left; color:#4B4A48; font-size:30px; font-weight:normal; margin:20px 20px;}
+.bbx_hottuijian a { float:left; width:82px; height:30px; overflow:hidden; background:#FFF; font:normal 14px/30px "Microsoft Yahei"; text-align:center;}
+.bbx_hottuijian a:hover{ background:#ff5555; color:#FFF;}
+.bbx_hottuijian .on { background:#ffdada; color:#333;}
+
+
+/*百宝箱列表*/
+.bbx_box{ width:1148px; margin:0 auto; overflow:hidden;}
+.bbx_box ul{ width:1168px;}
+.bbx_box ul li{ float:left; width:270px; height:148px; border:1px solid #E5E5E5; margin-right:20px; margin-bottom:20px; position:relative;}
+.bbx_box ul li .tline{ padding:12px;}
+.bbx_box ul li a.bbx_pic{ float:left; margin-right:10px;}
+.bbx_box ul li a.bbx_pic img{ width:88px; height:88px;}
+
+.bbx_box ul li .info{ float:left; width:145px;}
+.bbx_box ul li .info a.name{ display:inline-block; font-size:16px; height:34px; line-height:34px; overflow:hidden;}
+.bbx_box ul li .info p{ font-size:14px; height:24px; line-height:24px; color:#888; overflow:hidden;}
+
+.bbx_box ul li .info span.pintai{ float:left; margin-top:5px;}
+.bbx_box ul li .info span.pintai i{ display:inline-block; width:24px; height:24px; background:url(../images/bg_icon.png) no-repeat; margin-right:4px; overflow:hidden;}
+.bbx_box ul li .info span.pintai i.icon-android{ background-position:0 -474px;}
+.bbx_box ul li .info span.pintai i.icon-apple{ background-position:-28px -474px;}
+.bbx_box ul li .info span.pintai i.icon-apple2{ background-position:-56px -474px;}
+
+.bbx_box ul li .bline{ height:35px; background-color:#fafafa; border-top:1px solid #E5E5E5; padding:0 12px;}
+.bbx_box ul li .bline a.green{ float:left; display:inline-block; width:88px; text-align:center; height:24px; line-height:24px; background-color:#99CC00; color:#fff; border-radius:3px; margin-top:5px;}
+.bbx_box ul li .bline a.green:hover{  background-color:#87B400; color:#fff;}
+.bbx_box ul li .bline span{ line-height:35px; color:#666; padding-right:8px; margin-left:10px; font:normal 14px/35px "Microsoft Yahei"}
+.bbx_box ul li .bline span b{ font-weight:normal; color:#ff5555; padding:0px 7px;}
+.bbx_box ul li .bline span a{ margin-right:5px;}
+
+
+/*我的应用我的游戏关闭*/
+.bbx_box ul li a.close{ position:absolute; top:5px; right:5px; display:block; width:11px; height:11px; overflow:hidden; background:url(../images/bbx_iconclose.gif) no-repeat;}
+.bbx_box ul li a:hover.close{ background:url(../images/bbx_iconclose.gif) no-repeat -11px 0;}
+
+
+/*我的游戏*/
+.bbx_box ul li .info2{ float:left; width:145px;}
+.bbx_box ul li .info2 a.name{ display:inline-block; font-size:16px; height:34px; line-height:34px; overflow:hidden;}
+.bbx_box ul li .info2 p{ font-size:12px; height:24px; line-height:24px; color:#888; margin-top:3px; overflow:hidden;white-space:nowrap; *white-space:normal; text-overflow:ellipsis;}
+.bbx_box ul li .info2 span.pintai2{ float:right;}
+.bbx_box ul li .info2 span.pintai2 i{ display:inline-block; width:24px; height:24px; background:url(../images/bg_icon.png) no-repeat; margin-left:4px; overflow:hidden;}
+.bbx_box ul li .info2 span.pintai2 i.icon-android{ background-position:0 -474px;}
+.bbx_box ul li .info2 span.pintai2 i.icon-apple{ background-position:-28px -474px;}
+.bbx_box ul li .info2 span.pintai2 i.icon-apple2{ background-position:-56px -474px;}
+
+
+
+/*赚积分*/
+.bbx_jftitle{ width:1126px; height:40px; border:1px solid #e2e2e2; background:#fafafa; margin:0 20px; padding:0 10px;}
+.bbx_jftitle ul{}
+.bbx_jftitle li{ float:left; width:100px; height:40px; border-left:1px solid #fafafa; border-right:1px solid #fafafa; font:normal 16px/40px "Microsoft Yahei"; text-align:center; color:#666; padding:0 10px; cursor:pointer;}
+.bbx_jftitle li em{ float:left; width:19px; height:39px; overflow:hidden; background:url(../images/bbx_bj.gif) no-repeat -17px 0; display:block;}
+.bbx_jftitle li:hover em{ float:left; width:19px; height:39px; overflow:hidden; background:url(../images/bbx_bj.gif) no-repeat -37px 0; display:block;}
+.bbx_jftitle li:hover{  height:42px; background:#FFF; border:1px solid #e2e2e2; border-bottom: none; border-top:2px solid #ff5555; margin-top:-3px;}
+.bbx_jftitle .on { float:left; width:100px;  height:42px; background:#FFF; border:1px solid #e2e2e2; border-bottom: none; border-top:2px solid #ff5555; margin-top:-3px; font:normal 16px/40px "Microsoft Yahei"; text-align:center; color:#666; padding:0 10px;}
+.bbx_jftitle .on em{ float:left; width:19px; height:39px; overflow:hidden; background:url(../images/bbx_bj.gif) no-repeat -37px 0; display:block;}
+
+
+.bbx_box ul li .info3{ float:left; width:145px;}
+.bbx_box ul li .info3 a.name{ display:inline-block; font-size:16px; height:34px; line-height:34px; overflow:hidden;}
+.bbx_box ul li .info3 p{ font-size:12px; height:24px; line-height:24px; color:#888; margin-top:3px;}
+.bbx_box ul li .info3 span.pintai3{ float:left;}
+.bbx_box ul li .info3 span.pintai3 i{ display:inline-block; width:24px; height:24px; background:url(../images/bg_icon.png) no-repeat; margin-right:4px; overflow:hidden;}
+.bbx_box ul li .info3 span.pintai3 i.icon-android{ background-position:0 -474px;}
+.bbx_box ul li .info3 span.pintai3 i.icon-apple{ background-position:-28px -474px;}
+.bbx_box ul li .info3 span.pintai3 i.icon-apple2{ background-position:-56px -474px;}
+
+.bbx_box ul li .info3 span{ float:left; line-height:30px; color:#666; padding-right:8px; font:normal 14px/30px "Microsoft Yahei"}
+.bbx_box ul li .info3 span b{ font-weight:normal; color:#ff5555; padding:0px 7px;}
+.bbx_box ul li .info3 span a{ margin-right:5px;}
+
+.bbx_box ul li .bline3{ height:35px; background-color:#fafafa; border-top:1px solid #E5E5E5; padding:0 12px;}
+.bbx_box ul li .bline3 a.green{ float:left; display:inline-block; width:88px; text-align:center; height:24px; line-height:24px; background-color:#99CC00; color:#fff; border-radius:3px; margin-top:5px;}
+.bbx_box ul li .bline3 a.green:hover{  background-color:#87B400; color:#fff;}
+.bbx_box ul li .bline3 span{ line-height:35px; color:#ccc; padding-right:8px; margin-left:10px; font:normal 12px/35px "宋体";}
+.bbx_box ul li .bline3 span a:hover{ text-decoration:underline;}
+
+.conNo{ display:none;}
+
+
+.page{ padding:30px 0px; text-align:right;}
+.page a{ display:inline-block; height:38px; line-height:38px; padding:0px 14px; color:#666; background-color:#F2F2F2; font-size:14px; border-radius:5px;}
+.page a:hover{ color:#119CD5;}
+.page a.on{ background-color:#119CD5; color:#fff;}
+.page a.on:hover{ color:#fff;}
+

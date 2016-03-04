@@ -1,0 +1,58 @@
+/*礼包css*/
+.mainerbox{ width:1190px; margin:0 auto; font-family:"Microsoft Yahei";}
+.mainer{ border:1px solid #D5D5D5; margin-top:20px; width:1188px;}
+.breadnav{ height:44px; line-height:44px; border-bottom:1px solid #D5D5D5; font-size:14px; color:#666; padding:0px 20px; background-color:#F9F9F9;}
+.breadnav a{ color:#666;}
+.breadnav a:hover{ color:#f6505c;}
+.mainercontent{ background-color:#fff;}
+
+
+/*礼包列表 css*/
+.mainercontent{ font-family:"Microsoft Yahei";}
+.mainercontent h1{ color:#4B4A48; font-size:30px; font-weight:normal; padding:30px 20px;}
+.mainercontent h1 span{ color:#ff5555;}
+
+.libaolistbox{ width:1148px; margin:0 auto; overflow:hidden;}
+.libaolistbox ul{ width:1168px;}
+.libaolistbox ul li{ float:left; width:270px; height:147px; border:1px solid #E5E5E5; margin-right:20px; margin-bottom:20px;}
+.libaolistbox ul li .tline{ padding:12px;}
+.libaolistbox ul li a.pic{ float:left; margin-right:10px;}
+.libaolistbox ul li a.pic img{ width:88px; height:88px;}
+.libaolistbox ul li .info{ float:left; width:145px;}
+.libaolistbox ul li .info a.name{ display:inline-block; font-size:16px; height:48px; line-height:24px; overflow:hidden;}
+.libaolistbox ul li p{ margin-top:8px;}
+.libaolistbox ul li p a.green{ display:inline-block; width:60px; text-align:center; height:24px; line-height:24px; background-color:#99CC00; color:#fff; border-radius:4px;}
+.libaolistbox ul li p a.pink{ display:inline-block; width:60px; text-align:center; height:24px; line-height:24px; background-color:#FF8A8A; color:#fff; border-radius:4px;}
+.libaolistbox ul li p a.yellow{ display:inline-block; width:60px; text-align:center; height:24px; line-height:24px; background-color:#FFA800; color:#fff; border-radius:4px;}
+.libaolistbox ul li p a.grey{ display:inline-block; width:60px; text-align:center; height:24px; line-height:24px; background-color:#999999; color:#fff; border-radius:4px;}
+
+.libaolistbox ul li p a.green:hover{  background-color:#87B400; color:#fff;}
+.libaolistbox ul li p a.pink:hover{  background-color:#FF5555; color:#fff;}
+.libaolistbox ul li p a.yellow:hover{  background-color:#FF7200; color:#fff;}
+.libaolistbox ul li p a.grey:hover{  background-color:#333; color:#fff;}
+
+.libaolistbox ul li .bline{ height:34px; background-color:#fafafa; border-top:1px solid #E5E5E5;}
+.libaolistbox ul li .bline span.pintai{ float:left; margin-left:7px; margin-top:5px;}
+.libaolistbox ul li .bline span.pintai i{ display:inline-block; width:24px; height:24px; background:url(../images/bg_icon.png) no-repeat; margin-left:4px; overflow:hidden;}
+.libaolistbox ul li .bline span.pintai i.icon-android{ background-position:0 -474px;}
+.libaolistbox ul li .bline span.pintai i.icon-apple{ background-position:-28px -474px;}
+.libaolistbox ul li .bline span.pintai i.icon-apple2{ background-position:-56px -474px;}
+.libaolistbox ul li .bline .syl{ float:right; line-height:34px; width:172px; color:#666; padding-right:8px;}
+.libaolistbox ul li .bline .syl b{ font-weight:normal; color:#ff5555; padding:0px 7px;}
+.libaolistbox ul li .bline .syl p{ float:right; border-radius:2px; border:1px solid #DADADA; padding:1px; height:14px; line-height:14px; width:79px; overflow:hidden; background:url(../images/syl.gif) no-repeat 1px -15px;}
+.libaolistbox ul li .bline .syl p span{ display:inline-block; height:14px; background:url(../images/syl.gif) no-repeat left top;}
+
+.page{ padding:30px 0px; text-align:right;}
+.page a{ display:inline-block; height:38px; line-height:38px; padding:0px 14px; color:#666; background-color:#F2F2F2; font-size:14px; border-radius:5px;}
+.page a:hover{ color:#119CD5;}
+.page a.on{ background-color:#119CD5; color:#fff;}
+.page a.on:hover{ color:#fff;}
+
+.newslist{ width:1148px; margin:0 auto; overflow:hidden; border-top:1px solid #D5D5D5;}
+.newslist h3{ padding:15px 0px; height:36px; line-height:36px; font-size:16px; font-weight:normal;}
+.newslist h3 em{ display:inline-block; height:36px; background-color:#ff5555; width:8px; float:left; margin-right:9px;}
+.newslist ul{ width:1188px; margin-bottom:50px;}
+.newslist ul li{ background:url(../images/dian.gif) no-repeat left center; padding-left:9px; padding-right:20px; width:543px; margin-right:19px; float:left; font-size:14px; height:30px; line-height:30px; overflow:hidden; border-right:1px dashed #CECECE;}
+.newslist ul li a{ color:#333;}
+.newslist ul li a:hover{ color:#f6505c;}
+.newslist ul li span{ color:#888; float:right;}

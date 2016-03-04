@@ -1,0 +1,168 @@
+@charset "utf-8";
+/* global CSS */
+/**{transition:color 300ms,background-color 300ms;-moz-transition:color 300ms,background-color 300ms;-webkit-transition:color 300ms,background-color 300ms;-o-transition:color 300ms,background-color 300ms}*/
+*body{background-image:url(about:blank);background-attachment:fixed;/*用于ie6的fixed必要，防抖动*/}
+body{font-size:12px; background-color:#FAFAFA;}
+body,div,p,ul,ol,li,form,input,h1,h2,h3,h4,h5,h6{ margin:0px; padding:0px;}
+ul,ol{ list-style:none;}
+img{ border:0px; vertical-align:bottom;}
+a{ color:#666; text-decoration:none; outline:none;}
+a:hover{ color:#f6505c; text-decoration:none;}
+a:active {star:expression(this.onFocus=this.blur());}/*处理ie下链接虚线问题*/
+em{ font-style:normal;}
+a:hover img.opacity{filter:alpha(opacity=85); opacity:0.85;}
+
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
+.clearfix{*zoom:1;}
+.clear{ clear:both;}
+.clear10{clear:both;font-size:1px;width:100%;height:10px;visibility:hidden;margin-top:0px!important;*margin-top:-1px;line-height:0;}
+.clear20{clear:both;font-size:1px;width:100%;height:20px;visibility:hidden;margin-top:0px!important;*margin-top:-1px;line-height:0;}
+
+
+/*header css*/
+/*topline css*/
+.topline{ height:35px; line-height:35px; background-color:#e9e9e9; font-family:"Microsoft Yahei", simsun;}
+.toplink{ padding-left:10px; float:left;}
+.toplink a{ color:#555;}
+.toplink em{ color:#c6c6c6; padding:0 8px;}
+.toplinemainer{ width:1190px; margin:0 auto;}
+.toprightbox{ float:right;}
+.notlogin,.islogin{ float:right;}
+.notlogin a{ color:#fff; display:inline-block; line-height:21px; height:21px; _margin-top:6px; width:38px; text-align:center;}
+.notlogin a:hover{ color:#fff;}
+.notlogin a.loginbtn{ background-color:#4baef2;}
+.notlogin a.registbtn{ background-color:#ff5555;}
+.notlogin em{ padding:0 5px; color:#c6c6c6;}
+
+.notlogin{ display:none;}
+.islogin{ /*display:none;*/}
+
+.userinfo{ float:left; position:relative; z-index:50;}
+.messageinfo{ float:left;}
+.messageinfo em{ padding:0 8px; color:#c6c6c6;}
+.messageinfo a{ color:#555; display:inline-block; _margin-top:6px;}
+.messageinfo a b{ font-weight:normal; color:#f60;}
+.messageinfo a i.icon-mail{ background:url(../images/bg_icon.png) no-repeat -17px -12px; display:inline-block; width:17px; height:12px; margin-right:3px; position:relative; top:1px;  vertical-align:baseline; *vertical-align:middle;  *top:0px; _top:1px;}
+.userinfo .userinfoline{ text-align:right; background-color:#e9e9e9; border:1px solid #e9e9e9; border-bottom:0px; position:relative; z-index:1;}
+.userinfo .userinfoline a{ display:inline-block; height:34px;}
+.current .userinfoline{ background-color:#fff; border:1px solid #dadada; border-bottom:0px;}
+.userinfo .userinfoline a span{ padding:0px 8px; color:#555;}
+.userinfo .userinfoline a span b{ font-weight:normal; color:#f60;}
+.userinfo .userinfomore{ position:absolute; left:0px; top:34px; background-color:#fff; border:1px solid #dadada; width:244px; padding:10px; display:none;}
+.current .userinfomore{ display:block;}
+.basicinfo{ padding-bottom:9px; border-bottom:1px solid #f1f1f1;}
+.basicinfo img{ float:left; width:50px; height:50px; margin-right:9px;}
+.basicinfo p{ height:25px; line-height:25px; overflow:hidden; color:#333;}
+.basicinfo p a{ color:#2879d3;}
+.basicinfo p em{ color:#2879d3; padding:0px 8px;}
+.myinfo{ padding-top:10px;}
+.myinfo a{ display:block; float:left; width:73px; height:23px; line-height:23px; text-align:center; color:#666; background-color:#f1f1f1; border:1px solid #dadada; border-radius:3px;}
+.myinfo a.mygame,.myinfo a.mypost{ margin-right:9px;}
+.myinfo a:hover{ color:#fff; background-color:#444; border:1px solid #444;}
+
+.webmap{ float:right; position:relative; z-index:50; /*padding-left:25px; padding-right:20px; border:1px solid #e9e9e9; border-bottom:0px;*/}
+.toprightbox .current{}
+.toprightbox .webmap .webmapbtn{ border:1px solid #e9e9e9; border-bottom:0px; height:34px; background-color:#e9e9e9; position:relative; width:95px; text-align:center; z-index:1; cursor:pointer;}
+.toprightbox .current .webmapbtn{ border:1px solid #dadada; border-bottom:0px; background-color:#fff; position:relative; width:95px; text-align:center; z-index:1;}
+.toprightbox .webmap i{ display:inline-block;  background:url(../images/bg_icon.png) no-repeat;}
+.toprightbox .webmap i.icon-list{ background-position: -96px -12px; width:12px; height:10px; overflow:hidden; position:absolute; left:5px; top:13px; _top:12px;}
+.toprightbox .webmap i.icon-arrowb{ background-position: -149px -14px; width:9px; height:5px; overflow:hidden; position:absolute; right:5px; top:15px;}
+.toprightbox .webmap .webmappop{ display:none; position:absolute; top:34px; right:0px; width:1188px; height:190px; background-color:#fff; border:1px solid #dadada;}
+.toprightbox .current .webmappop{ display:block; position:absolute; top:34px; right:0px; _right:-1px; width:1188px; height:190px; background-color:#fff; border:1px solid #dadada;}
+
+.webmappop .site-map-1{ width:231px;}
+.webmappop .site-map-2{ width:130px;}
+.webmappop .site-map-3{ width:127px;}
+.webmappop .site-map-4{ width:478px;}
+.webmappop .site-map-5{ width:218px; border-right:0px!important;}
+.webmappop .site-map{border-right: 1px solid #e6e6e6; height:190px; overflow: hidden; float: left;}
+.webmappop .site-map .site-tit{font-size: 18px; margin: 20px 0 10px; padding-left: 15px;}
+.webmappop .site-map .site-tit a{ color:#ff5555;}
+.webmappop .site-map .site-tit a:hover{ color:#ff5555; text-decoration:underline;}
+.webmappop .site-map .site-con{zoom: 1; padding-left: 10px;}
+.webmappop .site-map .site-list{margin-right: 10px;float: left; width:90px;}
+.webmappop .site-map .site-list li{font-size: 14px; height: 32px; margin-bottom: 5px;display: list-item;
+text-align: -webkit-match-parent;}
+.webmappop .site-map .site-list li a{max-width: 100%;_width: 100%; display: inline-block;padding:0px 5px; line-height:32px; height:32px; white-space: nowrap;text-overflow: ellipsis;overflow: hidden;}
+.webmappop .site-map .site-list li a:hover{ color:#fff; background-color:#ff8a8a;}
+
+
+
+/*logoline css*/
+.logoline{ height:90px; background-color:#fff;}
+.logolinemainer{ width:1190px; margin:0 auto;}
+.logolinemainer a.logo{ display:block; float:left; width:206px; height:50px; margin-top:20px;}
+.logolinemainer .topsearchbox{ float:right; width:446px; margin-top:13px;}
+
+.searchbar{ float:right; position:relative; z-index:40;}
+.searchbar form{  width:446px; height:38px; overflow:hidden; background-color:#ff5555;}
+.selectbar{ position:absolute; top:2px; left:2px;}
+.searchbar .cell{ position:absolute; top:2px; left:84px;}
+.search-button{ position:absolute; top:2px; right:2px;}
+.search-button button{ width:80px; height:34px; border:none; background:url(../images/bg_icon.png) no-repeat -141px -72px;  _background:url(../images/bg_icon.gif) no-repeat -141px -72px; background-color:#ff5555; color:#fff; cursor:pointer; outline:none;}
+.search-button button.on{ background-color:#ff7a7a;}
+
+.selectbar{ width:81px; overflow:hidden; height:34px; border-right:1px solid #E0E0E0;}
+.selectbar ul{ border-bottom:1px solid #E0E0E0;}
+.selectbar ul li{ width:80px; height:34px; line-height:34px; text-align:center; border-left: 1px solid #e0e0e0; border-right: 1px solid #e0e0e0; border-bottom:1px solid #fff;}
+.selectbar ul li.selected{ background-color:#F6F6F6;}
+.selectbar ul li a{display: block; width: 100%; height: 100%; text-indent: -5px; color: #666; background: white;}
+.selectbar ul li a:hover{ background-color:#F6F6F6;}
+.selectbar ul li.selected a{ background-color:#F6F6F6;}
+.selectbar i{ position:absolute; top:16px; left:63px; background:url(../images/bg_icon.png) no-repeat -73px -87px; width:7px; height:4px;}
+
+.searchbar .cell{ height:34px; width:277px; background-color:#fff;}
+.searchbar .cell label{position: absolute;top: 0;left: 0;z-index:1; padding-left:10px; line-height:34px;font-size: 14px;color: #C5C5C5; cursor: text;}
+.searchbar .cell label.none{ display:none;}
+.searchbar .cell input{position: absolute;top: 0;left: 0; border:0px; outline:none; width: 227px; padding: 7px 10px; height:20px; line-height:20px; font-size: 14px;}
+
+.hotseacher{ height:32px; line-height:32px; color:#666;}
+.hotseacher a{ margin-right:10px; color:#666;}
+.hotseacher a:hover{ color:#f6505c; text-decoration:underline;}
+
+/*webnavline css*/
+.webnavline{ height:45px; background-color:#404952; width:100%; z-index:10; left:0px;}
+.webnav{ width:1190px; margin:0 auto; font-family:"微软雅黑"; position:relative; z-index:20;}
+.webnav ul li{ height:45px; line-height:45px; float:left; text-align:center;}
+.webnav ul li a{ display:block; float:left; height:45px; line-height:45px; width:148px; background-color:#404952; color:#fff; font-size:18px;}
+.webnav ul li.souye a{ width:154px;}
+.webnav ul li.on a{ background-color:#ff5555;}
+.webnav ul li a:hover{ background-color:#ff5555;/*#ff8a8a*/ color:#fff;}
+.webnav ul li.on a:hover{ background-color:#ff5555; color:#fff;}
+.webnavline .current .webchildnav{ display:block;}
+.webchildnav{ position:absolute; width:1190px; top:45px; left:0px; background-color:#4c555d; height:150px; padding:5px 0px; overflow:hidden; display:none;}
+.webchildnav .child-nav-list{ float:left; width:128px; height:120px; text-align:center; padding:0px 10px;}
+.webchildnav .souye-list{ width:134px;}
+.webchildnav .child-nav-list p{ padding:2px 0px 3px;}
+.webchildnav .child-nav-list a{ display:inline-block; height:30px; line-height:30px; color:#fff; padding:0 10px; font-size:14px;}
+.webchildnav .child-nav-list a:hover{ background-color:#ff8a8a;}
+
+/*footer css*/
+.footer{ background-color:#333;  font-family:"微软雅黑"; color:#999; padding:15px 0px 30px; margin-top:20px;}
+.friendlinks{ width:1190px; height:125px; padding-bottom:10px; border-bottom:1px solid #464646; margin:0 auto;}
+.friendlinks .linktabbtn{ height:30px;}
+.friendlinks .linktabbtn a{ display:block; background-color:#595959; color:#fff; float:left; width:90px; height:30px; line-height:30px; text-align:center; font-size:16px; margin-right:10px; border-radius:4px;}
+.friendlinks .linktabbtn a.on{ background-color:#ff5555; color:#fff;}
+.friendlinks .linkcontentbox p{ line-height:25px; height:75px; overflow:hidden; margin:15px 0px; display:none;}
+.friendlinks .linkcontentbox p.on{ display:block;}
+.friendlinks .linkcontentbox p a{ font-size:12px; color:#999; padding-right:12px;}
+.friendlinks .linkcontentbox p a:hover{ color:#f6505c;}
+
+.footinfo{text-align:center; padding:15px 0px;}
+.footinfo p{ line-height:25px;}
+.footinfo p a{ color:#999;}
+.footinfo p a:hover{ color:#f6505c;}
+.footinfo p em{ padding:0 10px;}
+
+/*官方微信*/
+.go_top{width:88px;border:1px solid #3598E5}
+.weibo_erwei{color:#333;padding:8px 10px}
+.weibo_erwei span{text-align:center;height:24px;line-height:24px;display:block}
+.weibo_erwei img{width:66px;height:66px}
+.watch-weibo{padding:6px 5px;color:#333;display:block;border-top:1px solid #D6E4EF}
+.goTop{height:34px;width:75px;padding-left:15px;text-align:center;line-height:34px;color:#fff;display:block;background:url(http://sts0.mofang.com/statics/v4/content/img/gotop_971ee1e.png) 5px center no-repeat #379EED;_position:absolute}
+.go_top{display:block;z-index:1000;background:#fff;overflow:hidden;left:50%;margin-left:595px;}
+.side-fix{/*bottom:150px;position:fixed*/top: 270px; position: fixed;}
+* html .side-fix{position:absolute;left:expression('50%');top:expression(eval(document.documentElement.scrollTop+270))}
+#gotop{display:block;overflow:hidden;left:50%;margin-left:500px;bottom:125px;position:fixed;_display:none!important}
+a#gotop:hover{text-decoration:none;color:#fff!important}

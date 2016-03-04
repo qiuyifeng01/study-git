@@ -1,0 +1,102 @@
+/*礼包css*/
+.mainerbox{ width:1190px; margin:0 auto; font-family:"Microsoft Yahei";}
+.mainer{ border:1px solid #D5D5D5; margin-top:20px; width:1188px;}
+.breadnav{ height:44px; line-height:44px; border-bottom:1px solid #D5D5D5; font-size:14px; color:#666; padding:0px 20px; background-color:#F9F9F9;}
+.breadnav a{ color:#666;}
+.breadnav a:hover{ color:#f6505c;}
+.mainercontent{ background-color:#fff;}
+
+
+/*礼包中心 css*/
+.libaosearchbox{ padding:20px;}
+.htit{ color:#4B4A48; border-bottom:2px solid #EBEBEB; height:50px;}
+.htit h3{ font-size:30px; font-weight:normal; border-bottom:2px solid #ff5555; float:left; height:50px; line-height:50px; padding:0px 5px; _position:relative; _top:2px;}
+.htit span{ font-size:14px; float:left; margin-top:20px; margin-left:20px;}
+.htit span b{ color:#ff5555; font-weight:normal;}
+
+.optionsbox{ margin-top:10px;}
+.options{ height:26px; padding:10px 0px; border-bottom:1px dashed #CECECE;}
+.options span{ padding-right:20px;}
+.options a{ display:inline-block; width:82px; text-align:center; height:24px; line-height:24px; border:1px solid #fff; background-color:#fff; color:#666; margin-right:10px;}
+.options a:hover{ border:1px solid #ddd; background-color:#f1f1f1; color:#666;}
+.options a.all{ color:#fff; background-color:#404952; border:1px solid #404952;}
+.options a.on{ color:#fff; background-color:#FF8A8A; border:1px solid #FF8A8A;}
+.options a.all:hover{ color:#fff; background-color:#404952; border:1px solid #404952;}
+.options a.on:hover{ color:#fff; background-color:#FF8A8A; border:1px solid #FF8A8A;}
+
+.libaotopline{ margin:20px; background-color:#FAFAFA; border:1px solid #E2E2E2; position:relative; height:39px;}
+.libaotopline .orderbtn{ position:absolute; left:0px; top:-1px;}
+.libaotopline .orderbtn a{ display:inline-block; width:110px; height:41px; line-height:41px; font-size:16px; text-align:center;}
+.libaotopline .orderbtn a.on{ background-color:#4BAEF2; color:#fff;}
+.libaotopline .gamesarch{ float:right; padding-left:10px;  width:290px; height:39px; background-color:#fff; border-left:1px solid #e2e2e2;}
+.gamesarch form input.text{ border:1px solid #fff; margin-top:9px; height:20px; line-height:20px; width:240px; color:#666; outline:none;}
+.gamesarch form input.sub{ width:40px; height:41px; line-height:39px; border:0px; font-size:16px; color:#fff; background-color:#404952; position:absolute; right:-1px; top:-1px; cursor:pointer; font-family:"Microsoft Yahei";}
+
+.libaobox{ padding:0px 20px; font-family:simsun;}
+.gamelibao{ border-bottom:1px dashed #CECECE;}
+.gamelibao img{ width:80px; height:80px; border-radius:14px;}
+.gamelibao .thegame{ /*width:375px;*/ float:left; padding:14px 0px 14px 10px;}
+.gamecontenthover .thegame{ background-color:#FFFBE5; border:2px solid #C98936; border-right:0px; position:absolute; z-index:8; left:-2px;}
+.gamepic{ float:left; width:80px; height:80px; margin-right:10px;}
+.gameinfo{ float:left; width:254px; padding-right:20px; border-right:1px solid #E8E8E8;}
+.gameinfo h3{ font-size:14px; height:20px; overflow:hidden;}
+.gameinfo h3 a{ font-family:"Microsoft Yahei"; color:#666;}
+.gameinfo h3 a:hover{ color:#f6505c;}
+.gameinfo h3 span{ float:right; font-size:12px; font-weight:normal;}
+.gameinfo h3 span a{ margin-left:12px;}
+.gameinfo p.tip{ height:32px; line-height:32px; text-align:right; color:#ff5555;}
+.gameinfo p.tip span{ float:left; color:#666;}
+.gameinfo p.down span a{ margin-right:8px;}
+.gameinfo p.down span.pintai{ float:right;}
+.gameinfo p.down span.pintai i{ display:inline-block; width:24px; height:24px; background:url(../images/bg_icon.png) no-repeat; margin-left:4px; overflow:hidden;}
+.gameinfo p.down span.pintai i.icon-android{ background-position:0 -474px;}
+.gameinfo p.down span.pintai i.icon-apple{ background-position:-28px -474px;}
+.gamelibao a.normal{ display:inline-block; width:58px; text-align:center; height:22px; line-height:22px; border:1px solid #E2E2E2; background-color:#FAFAFA; border-radius:4px;}
+.gamelibao a.normal:hover{ background-color:#3399FF; border:1px solid #3399FF; color:#fff;}
+.gamelibao a.green{ display:inline-block; width:60px; text-align:center; height:24px; line-height:24px; background-color:#99CC00; color:#fff; border-radius:4px;}
+.gamelibao a.pink{ display:inline-block; width:60px; text-align:center; height:24px; line-height:24px; background-color:#FF8A8A; color:#fff; border-radius:4px;}
+.gamelibao a.yellow{ display:inline-block; width:60px; text-align:center; height:24px; line-height:24px; background-color:#FFA800; color:#fff; border-radius:4px;}
+.gamelibao a.grey{ display:inline-block; width:60px; text-align:center; height:24px; line-height:24px; background-color:#999999; color:#fff; border-radius:4px;}
+.gamelibao a.green:hover{ display:inline-block; width:60px; text-align:center; height:24px; line-height:24px; background-color:#87B400; color:#fff; border-radius:4px;}
+.gamelibao a.pink:hover{ display:inline-block; width:60px; text-align:center; height:24px; line-height:24px; background-color:#FF5555; color:#fff; border-radius:4px;}
+.gamelibao a.yellow:hover{ display:inline-block; width:60px; text-align:center; height:24px; line-height:24px; background-color:#FF7200; color:#fff; border-radius:4px;}
+.gamelibao a.grey:hover{ display:inline-block; width:60px; text-align:center; height:24px; line-height:24px; background-color:#333; color:#fff; border-radius:4px;}
+
+.gamecontent{ position:relative; /*z-index:5;*/ height:110px; background-color:#fff;}
+.gamecontenthover{ z-index:5; top:-2px; /*margin-top:-2px; margin-bottom:2px;height:112px;*/ }
+.thegame{ /*position:absolute;*/}
+.gamecontent .libaoopen{ display:none;}
+.gamecontenthover .libaoopen{ display:block;}
+.libaoopen{ position:absolute; left:373px; width:772px; top:0px; background-color:#FFFBE5; border:2px solid #C98936; z-index:5;}
+.libaodetails ul{ padding-top:0px; *padding-bottom:14px; padding-left:10px; margin-bottom:-4px;  *margin-bottom:0px;/*_padding-bottom:20px;*/}
+.libaodetails ul li{ float:left; margin-left:10px; margin-top:14px; margin-bottom:18px;/* margin-left:20px; margin-bottom:20px; background-color:#fff; border:1px solid #E3E3E3;*/ padding:0px; width:240px; height:80px; display:inline;}
+.libaodetails ul li a.libaopic{ float:left; display:block; width:80px; height:80px; margin-right:10px;}
+.libaodetails ul li a.libaopic img{ width:80px; height:80px; vertical-align:bottom;}
+.libaodetails ul li .libaoinfo{ float:left; width:150px;}
+.libaodetails ul li .libaoinfo a.libaoname{ font-family:"Microsoft Yahei"; font-size:14px; color:#333; height:21px; line-height:21px; margin-bottom:5px; overflow:hidden; display:inline-block;}
+.libaodetails ul li .libaoinfo a.libaoname:hover{ color:#f6505c;}
+.libaodetails ul li .libaoinfo p.tip{ height:26px; line-height:26px; color:#666;}
+.libaodetails ul li .libaoinfo p.tip span{/* padding-right:12px;*/}
+.libaodetails ul li .libaoinfo p.tip span.syl{ color:#FF5555; padding-left:12px;}
+.libaodetails ul li .libaoinfo p.btn{}
+.libaodetails ul li .libaoinfo p.btn span.syl{ color:#FF5555; padding-left:12px;}
+
+.gamelibao .thelibao{ float:left; position:absolute; left:375px; top:0px; z-index:1;}
+.thelibao ul{ padding-left:10px; padding-top:14px;}
+.thelibao ul li{ float:left; margin-left:10px; display:inline;}
+.thelibao ul li a.pic{ float:left; display:block; width:80px; height:80px; margin-right:10px;}
+.thelibao ul li a.pic img{ width:80px; height:80px; vertical-align:bottom;}
+.thelibao ul li .info{ float:left; width:150px;}
+.thelibao ul li .info a.name{ font-family:"Microsoft Yahei"; font-size:14px; color:#333; height:21px; line-height:21px; margin-bottom:5px; overflow:hidden; display:inline-block;}
+.thelibao ul li .info a.name:hover{ color:#f6505c;}
+.thelibao ul li .info p.tip{ height:26px; line-height:26px; color:#666;}
+.thelibao ul li .info p.tip span{/* padding-right:12px;*/}
+.thelibao ul li .info p.tip span.syl{ color:#FF5555; padding-left:12px;}
+.thelibao ul li .info p.btn{}
+.thelibao ul li .info p.btn span.syl{ color:#FF5555; padding-left:12px;}
+
+.page{ padding:30px 0px; text-align:right;}
+.page a{ display:inline-block; height:38px; line-height:38px; padding:0px 14px; color:#666; background-color:#F2F2F2; font-size:14px; border-radius:5px;}
+.page a:hover{ color:#119CD5;}
+.page a.on{ background-color:#119CD5; color:#fff;}
+.page a.on:hover{ color:#fff;}

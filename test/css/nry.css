@@ -1,0 +1,120 @@
+@charset "utf-8";
+/* 视频内容页 CSS */
+.mainerbox{ width:1190px; margin:0 auto;}
+.mainer{ border:1px solid #D5D5D5; margin-top:20px; width:1188px;}
+.breadnav{ height:44px; line-height:44px; border-bottom:1px solid #D5D5D5; font-size:14px; color:#666; padding:0px 20px; background-color:#F9F9F9;}
+.breadnav a{ color:#666;}
+.breadnav a:hover{ color:#f6505c;}
+.mainercontent{ background-color:#fff;}
+.mainerleft{ float:left; width:767px; padding:20px 40px; font-family:"Microsoft Yahei";}
+.titinfo{ border-bottom:1px dashed #d5d5d5;}
+.titinfo h1{ font-size:25px; text-align:center; font-weight:normal; color:#1B6598;}
+.titinfo p{ padding:20px 0px; text-align:center; font-size:14px; color:#999;}
+.titinfo p span{ padding:0 10px;}
+.newsinfo{ color:#666; font-size:14px; padding-top:15px;}
+.newsinfo p{ line-height:30px; text-indent:2em; margin-bottom:20px;}
+.gameinfoline{ padding:20px; border:1px solid #E9E9E9;}
+.gamepic{ float:left; width:121px; height:121px; overflow:hidden; margin-right:15px;}
+.gamepic a img{ width:121px; height:121px;}
+.gamepic a:hover img.pic{ display:none;}
+.gameinfo{ float:left;}
+.gameinfo h3{ height:30px; line-height:30px; margin-bottom:5px;}
+.gameinfo h3 a{ color:#FF5555; font-size:20px; font-weight:normal;}
+.gameinfo p{ line-height:22px; color:#666; }
+.gameinfo p span{ padding-right:12px;}
+.gameinfo p span b{ font-weight:normal; color:#ff5555;}
+.downgame{ margin-top:5px;}
+.downgame a.downgamebtn{ color:#fff; display:inline-block; width:70px; padding-left:30px; height:30px; line-height:26px; font-size:14px; background:url(../images/bg_icon.png) no-repeat -8px -414px;; background-color:#92BC40; border-radius:3px; margin-right:5px;}
+.downgame span{ padding:0px 5px; color:#666;}
+.downgame span b{ font-weight:normal; color:#ff5555; }
+
+.toupiao{ border:1px solid #E9E9E9; margin-top:-1px; padding:18px;}
+.toupiao h3{ font-size:16px; font-weight:normal;}
+.toupiao h3 span{ color:#f55;}
+.toupiao ul{ padding-top:40px;}
+.toupiao ul li{ width:90px; float:left; font-size:14px; color:#666; text-align:center; cursor:pointer;}
+.toupiao ul li div.zhuzi{ height:100px; position:relative;}
+.toupiao ul li div.zhuzi span{ display:block; width:25px; margin:0 auto; background-color:#E6B126; position:absolute; bottom:0px; left:32px; font-size:0px; line-height:0px;}
+.toupiao ul li div.zhuzi b{position: absolute;left: 0px;display: block;text-align: center;width: 90px;left: 0px;bottom: 0px; font-weight:normal;}
+.toupiao ul li.on div span,.toupiao ul li.hover div span{ background-color:#FF6600 !important;}
+.toupiao ul li p.bq{ margin:15px 0px 10px;}
+/*.toupiao ul li p.bq i{ display:inline-block; background:url(../images/toupiao.png) no-repeat; width:42px; height:42px; overflow:hidden;}
+.toupiao ul li p.bq i.icon-biaoqin1{ background-position:-18px -8px;}
+.toupiao ul li p.bq i.icon-biaoqin2{ background-position:-107px -8px;}
+.toupiao ul li p.bq i.icon-biaoqin3{ background-position:-196px -8px;}
+.toupiao ul li p.bq i.icon-biaoqin4{ background-position:-285px -8px;}
+.toupiao ul li p.bq i.icon-biaoqin5{ background-position:-374px -8px;}
+.toupiao ul li p.bq i.icon-biaoqin6{ background-position:-463px -8px;}
+.toupiao ul li p.bq i.icon-biaoqin7{ background-position:-552px -8px;}
+.toupiao ul li p.bq i.icon-biaoqin8{ background-position:-641px -8px;}*/
+
+.toupiao ul li p.bq i{ display:inline-block; background:url(../images/biaoqin.png) no-repeat; width:42px; height:42px; overflow:hidden;}
+.toupiao ul li p.bq i.icon-biaoqin_qidai{ background-position:0px 0px;}
+.toupiao ul li p.bq i.icon-biaoqin_guanzhu{ background-position:-42px 0px;}
+.toupiao ul li p.bq i.icon-biaoqin_diaobao{ background-position:-84px 0px;}
+.toupiao ul li p.bq i.icon-biaoqin_luguo{ background-position:-126px 0px;}
+.toupiao ul li p.bq i.icon-biaoqin_danteng{ background-position:-168px 0px;}
+.toupiao ul li p.bq i.icon-biaoqin_nanguo{ background-position:-210px 0px;}
+.toupiao ul li p.bq i.icon-biaoqin_fennu{ background-position:-252px 0px;}
+.toupiao ul li p.bq i.icon-biaoqin_gunchu{ background-position:-294px 0px;}
+
+.toupiao ul li p.bq i img{ width:42px; height:42px; display:none;}
+.toupiao ul li.hover p.bq i img{ display:block;}
+.toupiao ul li.on p.text,.toupiao ul li.hover p.text{ color:#FF6600;}
+
+.relationnews{ margin:35px 0px 30px;}
+.relationnews h3{ font-size:16px; font-weight:normal; margin-bottom:10px;}
+.relationnews h3 span{ color:#f60;}
+.relationnews ul li{ background:url(../images/dian.gif) no-repeat left center; height:30px; line-height:30px; overflow:hidden; padding-left:8px; font-size:14px;}
+.relationnews ul li span{ font-size:12px; font-family:simsun; color:#999; padding-left:20px;}
+.relationnews ul li a{ color:#333;}
+.relationnews ul li a:hover{ color:#f6505c;}
+
+.pinlun h3{ margin-bottom:10px;}
+.pinlun h3 span{ display:inline-block; width:75px; text-align:center; height:30px; line-height:30px; font-size:14px; color:#fff; background-color:#f60; font-weight:normal;}
+
+
+.mainerright{ float:right; padding:20px; width:301px; background-color:#FAFAFA;}
+
+.rightnews h3{ font-weight:normal; text-align:right; border-bottom:2px solid #EBEBEB; height:44px; line-height:44px; padding-bottom:2px; position:relative;}
+.rightnews h3 span{ float:left; position:absolute; left:0px; top:0px;}
+.rightnews h3 span a{ font-family:"Microsoft Yahei"; font-size:18px; border-bottom:2px solid #EBEBEB; color:#333; display:inline-block; padding:0px 4px; padding-bottom:2px; color:#333; border-bottom:2px solid #ff5555;}
+.rightnews h3 a.more{ font-size:12px; position:absolute; right:0px; top:5px;}
+
+.toutiao h2{ height:36px; line-height:36px; overflow:hidden;}
+.toutiao h2 a{ color:#426C9C; font-size:14px;}
+.toutiao h2 a:hover{ text-decoration:underline;}
+.toupic{ width:110px; height:85px; overflow:hidden; float:left; margin-right:10px;}
+.toutiao p{ float:left; line-height:21px; height:84px; overflow:hidden; width:180px; color:#666;}
+.toutiao p a{ color:#426C9C;}
+.toutiao p a:hover{ text-decoration:underline;}
+.rightnews ul.rightulnews{ padding:5px 0px;}
+.rightnews ul.rightulnews li{ height:30px; line-height:30px; background:url(../images/dian.gif) no-repeat left center; padding-left:8px; overflow:hidden;}
+.rightnews ul.rightulnews li a{ font-family:"Microsoft Yahei"; font-size:14px; color:#333;}
+.rightnews ul.rightulnews li a:hover{ color:#f6505c;}
+
+.testlistbox h3{ font-weight:normal; text-align:right; border-bottom:2px solid #EBEBEB; height:44px; line-height:44px; padding-bottom:2px; position:relative;}
+.testlistbox h3 span{ float:left; position:absolute; left:0px; top:0px;}
+.testlistbox h3 span a{ font-family:"Microsoft Yahei"; font-size:18px; border-bottom:2px solid #EBEBEB; color:#333; display:inline-block; padding:0px 4px; padding-bottom:2px; color:#333; border-bottom:2px solid #ff5555;}
+.testlistbox h3 a.more{ font-size:12px; position:absolute; right:0px; top:5px;}
+.testlist ul li{ border-bottom:1px dashed #ccc; height:30px; line-height:30px;}
+.testlist ul li div{ float:left; height:30px; line-height:30px;}
+.testlist ul li div.time{ width:60px; color:#E80497; text-align:center;}
+.testlist ul li div.name{ width:100px; color:#2b2b2b; overflow:hidden;}
+.testlist ul li div.name a{ color:#2b2b2b;}
+.testlist ul li div.name a:hover{color:#f6505c;}
+.testlist ul li div.user{ width:90px; padding-left:5px; padding-right:5px; color:#777; overflow:hidden;}
+.testlist ul li div.test{ width:40px; text-align:right; height:20px; padding:5px 0px;}
+.testlist ul li div.test span{ color:#fff; display:inline-block; width:38px; text-align:center; height:20px; line-height:20px;}
+.testlist ul li div.test span.blue{ background-color:#5E9BD9;}
+.testlist ul li div.test span.brown{ background-color:#E0984C;}
+.testlist ul li div.test span.green{ background-color:#92BC40;}
+
+.contactus h3{ font-weight:normal; text-align:right; border-bottom:2px solid #EBEBEB; height:44px; line-height:44px; padding-bottom:2px; position:relative;}
+.contactus h3 span{ float:left; position:absolute; left:0px; top:0px;}
+.contactus h3 span a{ font-family:"Microsoft Yahei"; font-size:18px; border-bottom:2px solid #EBEBEB; color:#333; display:inline-block; padding:0px 4px; padding-bottom:2px; color:#333; border-bottom:2px solid #ff5555;}
+.contactus h3 a.more{ font-size:12px; position:absolute; right:0px; top:5px;}
+.contact{ padding:10px 0px;}
+.contact p{ line-height:21px; text-indent:2em; color:#333;}
+.contact p a{ color:#333;}
+.contact p a:hover{ color:#f6505c;}

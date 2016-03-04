@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* 图文文章列表页 CSS */
+.mainerbox{ width:1190px; margin:0 auto;}
+.breadnav{ height:44px; line-height:44px; border-bottom:1px solid #D5D5D5; font-size:14px; color:#666; padding:0px 20px; background-color:#F9F9F9;}
+.breadnav a{ color:#666;}
+.breadnav a:hover{ color:#f6505c;}
+
+.map_content{ width:1152px; border:1px solid #D5D5D5; margin-top:20px;  background-color:#FFF; padding:18px;}
+.wz_map{ float:left; width:1152px; padding-top:60px; position:relative;}
+.wz_map .map_biaoti{ float:left; width:120px; height:40px; text-align:center; color:#FFF; font:normal 20px/40px "Microsoft Yahei"; background:#ff5555; border-radius: 0 3px 3px 0; position:absolute; left:-19px; top:0px; }
+.wz_map ul{}
+.wz_map li{ width:1152px; overflow:hidden;}
+.wz_map li span{ height:20px; border-left:5px solid #4baef2; padding-left:10px; color:#666; font:bold 16px/20px "Microsoft Yahei"; display:block; margin:20px 0;}
+.wz_map li b{ float:left; padding-left:20px; }
+.wz_map li b a{ float:left; width:134px; height:14px; overflow:hidden; font:normal 14px/14px "Microsoft Yahei"; color:#666; text-align:center; display:block; border-right:1px solid #d6d6d6; margin:15px 0; }
+.wz_map li b a:hover{ color:#ff5555; text-decoration: underline;}
+
+
+.gamenew_zq{ float:left; width:1152px; padding-top:60px; position:relative; margin-top:20px;}
+.gamenew_zq .geme_biaoti{ float:left; width:160px; height:40px; text-align:center; color:#FFF; font:normal 20px/40px "Microsoft Yahei"; background:#4baef2; border-radius: 0 3px 3px 0; position:absolute; left:-19px; top:0px; }
+
+.game_sy{ width:1152px; height:45px; background:#f5f5f5;}
+.game_sy ul{ }
+.game_sy li{ float:left; width:115px; height:45px; text-align:center; color:#333; }
+.game_sy li a{width:115px; height:40px; display:block; font:normal 16px/40px "Microsoft Yahei"; color:#333; border-bottom:5px solid #f5f5f5;}
+.game_sy .on a{ color:#4baef2; border-bottom:5px solid #4baef2;}
+
+.game_text{ float:left; width:1152px; padding-bottom:20px; }
+.game_text ul{}
+.game_text li{ /*float:left;*/ margin-top:20px; }
+.game_text li span{ float:left; width:1152px; height:40px; display:block; font:normal 16px/40px "Microsoft Yahei"; color:#666;}
+.game_text li span em{ font:normal 24px/40px "Microsoft Yahei"; color:#4baef2; }
+.game_text li a{ float:left; width:149px; height:30px; display:block; overflow:hidden; background:#FFF; text-align:left;font:normal 14px/30px "Microsoft Yahei"; color:#666; margin:5px 0; padding-left:14px; margin-right:1px;}
+.game_text li a:hover{ background:#ff5555; color:#FFF;}
+
+.conNo{ display:none;}
